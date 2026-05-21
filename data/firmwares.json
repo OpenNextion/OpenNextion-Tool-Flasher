@@ -1,0 +1,148 @@
+[
+  {
+    "id": "onx2432g028-factory-demo-01",
+    "name": "01_touch_test",
+    "groupId": "factory",
+    "boardIds": ["onx2432g028"],
+    "version": "v0.1.0",
+    "summary": "01_touch_test",
+    "description": "用于 ONX2432G028 的出厂验机和用户首次体验。",
+    "markdown": "./firmware/onx2432g028/factory-demo/01_touch_test/README.md",
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/factory-demo/01_touch_test/touch_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx2432g028-factory-demo-02",
+    "name": "02_music_test",
+    "groupId": "factory",
+    "boardIds": ["onx2432g028"],
+    "version": "v0.1.0",
+    "summary": "02_music_test",
+    "description": "用于 ONX2432G028 的出厂验机和用户首次体验。",
+    "markdown": "./firmware/onx2432g028/factory-demo/02_music_test/README.md",
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/factory-demo/02_music_test/music_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx2432g028-factory-demo-03",
+    "name": "03_sd_card_image_test",
+    "groupId": "factory",
+    "boardIds": ["onx2432g028"],
+    "version": "v0.1.0",
+    "summary": "03_sd_card_image_test",
+    "description": "用于 ONX2432G028 的出厂验机和用户首次体验。",
+    "markdown": "./firmware/onx2432g028/factory-demo/03_sd_card_image_test/README.md",
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/factory-demo/03_sd_card_image_test/sd_card_image_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+
+
+  {
+    "id": "onx2432g028-factory-demo",
+    "name": "ONX2432G028 出厂综合演示",
+    "groupId": "factory",
+    "boardIds": ["onx2432g028"],
+    "version": "v0.1.0",
+    "summary": "屏幕、触摸、背光、串口和基础控件综合测试。",
+    "description": "用于 ONX2432G028 的出厂验机和用户首次体验。",
+    "markdown": "./firmware/onx2432g028/factory-demo/README.md",
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/factory-demo/bootloader.bin",
+        "address": "0x0"
+      },
+      {
+        "path": "./firmware/onx2432g028/factory-demo/partitions.bin",
+        "address": "0x8000"
+      },
+      {
+        "path": "./firmware/onx2432g028/factory-demo/app.bin",
+        "address": "0x10000"
+      }
+    ]
+  },
+  {
+    "id": "onx2432g028-lvgl-dashboard",
+    "name": "ONX2432G028 LVGL 仪表盘",
+    "groupId": "graphics",
+    "boardIds": ["onx2432g028"],
+    "version": "v0.1.0",
+    "summary": "展示 LVGL 控件、动画和实时数据仪表盘布局。",
+    "description": "适合展示图形界面能力。",
+    "markdown": "./firmware/onx2432g028/lvgl-dashboard/README.md",
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/lvgl-dashboard/bootloader.bin",
+        "address": "0x0"
+      },
+      {
+        "path": "./firmware/onx2432g028/lvgl-dashboard/partitions.bin",
+        "address": "0x8000"
+      },
+      {
+        "path": "./firmware/onx2432g028/lvgl-dashboard/app.bin",
+        "address": "0x10000"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-factory-demo",
+    "name": "ONX3248G035 出厂综合演示",
+    "groupId": "factory",
+    "boardIds": ["onx3248g035"],
+    "version": "v0.1.0",
+    "summary": "适配 3.5 英寸屏幕的出厂演示和基础硬件测试。",
+    "description": "用于 ONX3248G035 的快速验机。",
+    "markdown": "./firmware/onx3248g035/factory-demo/README.md",
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/factory-demo/bootloader.bin",
+        "address": "0x0"
+      },
+      {
+        "path": "./firmware/onx3248g035/factory-demo/partitions.bin",
+        "address": "0x8000"
+      },
+      {
+        "path": "./firmware/onx3248g035/factory-demo/app.bin",
+        "address": "0x10000"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-wifi-mqtt",
+    "name": "ONX3248G035 Wi-Fi MQTT 面板",
+    "groupId": "connectivity",
+    "boardIds": ["onx3248g035"],
+    "version": "v0.1.0",
+    "summary": "演示 Wi-Fi 配网、MQTT 数据订阅和状态面板。",
+    "description": "适合联网控制面板和智能家居场景展示。",
+    "markdown": "./firmware/onx3248g035/wifi-mqtt/README.md",
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/wifi-mqtt/bootloader.bin",
+        "address": "0x0"
+      },
+      {
+        "path": "./firmware/onx3248g035/wifi-mqtt/partitions.bin",
+        "address": "0x8000"
+      },
+      {
+        "path": "./firmware/onx3248g035/wifi-mqtt/app.bin",
+        "address": "0x10000"
+      }
+    ]
+  }
+]

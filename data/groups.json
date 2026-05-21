@@ -1,0 +1,17 @@
+[
+  {
+    "id": "factory",
+    "name": "出厂演示",
+    "description": "适合首次上电验机、屏幕触摸测试和功能展示。"
+  },
+  {
+    "id": "graphics",
+    "name": "图形界面",
+    "description": "LVGL、仪表盘、动画和多页面 UI 例程。"
+  },
+  {
+    "id": "connectivity",
+    "name": "联网功能",
+    "description": "Wi-Fi、蓝牙、MQTT、HTTP 等联网例程。"
+  }
+]

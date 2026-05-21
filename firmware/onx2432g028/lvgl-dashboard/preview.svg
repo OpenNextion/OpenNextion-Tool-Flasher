@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#eef3f7"/>
+  <rect x="88" y="48" width="784" height="444" rx="24" fill="#16202a"/>
+  <text x="138" y="116" fill="#ffffff" font-family="Arial" font-size="32" font-weight="700">LVGL Dashboard</text>
+  <circle cx="310" cy="288" r="122" fill="#203040" stroke="#45c2bd" stroke-width="18"/>
+  <path d="M310 288 L370 218" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <rect x="500" y="168" width="250" height="76" rx="10" fill="#edf2f7"/>
+  <rect x="500" y="266" width="250" height="76" rx="10" fill="#dff4f2"/>
+  <rect x="500" y="364" width="250" height="76" rx="10" fill="#fde68a"/>
+  <text x="534" y="216" fill="#17212b" font-family="Arial" font-size="24" font-weight="700">Temperature</text>
+  <text x="534" y="314" fill="#17212b" font-family="Arial" font-size="24" font-weight="700">Humidity</text>
+  <text x="534" y="412" fill="#17212b" font-family="Arial" font-size="24" font-weight="700">Pressure</text>
+</svg>
