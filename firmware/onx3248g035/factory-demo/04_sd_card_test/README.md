@@ -34,11 +34,11 @@ The example uses the SDMMC host driver in 1-line SD mode. The results of the ope
 3.  **Flash**: Flash the firmware to the board.
 4.  **Monitor Output**: Open a serial monitor to view the output of the SD card test.
 
-#### Product Purchase Link
+### Product Purchase Link
 [3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### Product Information
+### Product Information
 [3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
-#### Source Code
+### Source Code
 [04_sd_card_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/04_sd_card_test)

@@ -47,12 +47,12 @@
 4. **烧录**：烧录固件到开发板。
 5. **操作界面**：启动后使用触摸屏选择歌曲并播放。
 
-#### 产品购买链接
+### 产品购买链接
 [3.5寸电容屏 ONX3248G035](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 [喇叭](https://itead.cc/product/nextion-box-speaker/)
 
-#### 产品资料：
+### 产品资料：
 [3.5寸电容屏 ONX3248G035](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
-#### 源码
+### 源码
 [02_music_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/02_music_test)

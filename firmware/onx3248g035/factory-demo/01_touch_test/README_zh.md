@@ -37,11 +37,11 @@
 | LCD BL | GPIO_NUM_6 | LCD背光控制 (PWM) |
 | LCD RST | - | 通过PCF8574控制 |
 
-#### 产品购买链接
+### 产品购买链接
 [3.5寸电容屏 ONX3248G035](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### 产品资料：
+### 产品资料：
 [3.5寸电容屏 ONX3248G035](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
-#### 源码
+### 源码
 [01_touch_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/01_touch_test)

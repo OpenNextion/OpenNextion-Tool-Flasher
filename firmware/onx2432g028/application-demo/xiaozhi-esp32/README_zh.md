@@ -35,13 +35,13 @@
 | LCD BL | GPIO_NUM_6 | 背光控制（PWM） |
 | LCD RST | - | 通过 PCF8574 控制 |
 
-#### 产品购买链接
+### 产品购买链接
 [2.8寸电容屏 ONX2432G028](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 [双麦扩展板](https://itead.cc/product/nextion-dual-mic-board/)
 [喇叭](https://itead.cc/product/nextion-box-speaker/)
 
-#### 产品资料
+### 产品资料
 [2.8寸电容屏 ONX2432G028](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
-#### 源码
+### 源码
 [OpenNextion-Example-xiaozhi-esp32](https://github.com/OpenNextion/OpenNextion-Example-xiaozhi-esp32)

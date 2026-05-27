@@ -37,11 +37,11 @@ When the user touches the screen, the program reads the touch coordinates and dr
 | LCD BL | GPIO_NUM_6 | LCD Backlight Control (PWM) |
 | LCD RST | - | Controlled via PCF8574 |
 
-#### Product Purchase Link
+### Product Purchase Link
 [2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### Product Information
+### Product Information
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
-#### Source Code
+### Source Code
 [01_touch_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/01_touch_test)

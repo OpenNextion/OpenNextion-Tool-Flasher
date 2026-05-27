@@ -53,12 +53,12 @@ This project demonstrates how to use a camera on the ONX2432G028 development boa
 2.  **Flash**: Flash the firmware to the board.
 3.  **View Output**: The live camera feed should appear on the LCD screen after the device boots up.
 
-#### Product Purchase Link
+### Product Purchase Link
 [2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### Product Information
+### Product Information
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
-#### Source Code
+### Source Code
 [06_camera_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/06_camera_test)
 

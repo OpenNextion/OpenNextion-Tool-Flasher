@@ -47,12 +47,12 @@ This example demonstrates playing audio from an SD card on the ONX3248G035 devel
 4.  **Flash**: Flash the firmware to the board.
 5. **Use the touch UI** to select and play tracks.
 
-#### Product Purchase Link
+### Product Purchase Link
 [3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 [speaker](https://itead.cc/product/nextion-box-speaker/)
 
-#### Product Information
+### Product Information
 [3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
-#### Source Code
+### Source Code
 [02_music_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/02_music_test)

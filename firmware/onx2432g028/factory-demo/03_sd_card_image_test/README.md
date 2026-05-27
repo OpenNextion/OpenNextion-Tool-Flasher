@@ -48,11 +48,11 @@ The example scans the `images` folder in the root directory of the SD card for i
 2.  **Connect Hardware**: Connect the LCD screen, touch controller, and SD card to the ESP32-S3 board according to the pin connections table.
 3.  **Flash**: Flash the firmware to the board.
 
-#### Product Purchase Link
+### Product Purchase Link
 [2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### Product Information
+### Product Information
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
-#### Source Code
+### Source Code
 [03_sd_card_image_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/03_sd_card_image_test)

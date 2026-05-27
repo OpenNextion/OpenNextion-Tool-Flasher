@@ -49,11 +49,11 @@ This example shows how to estimate battery level using ADC sampling and display 
 2. **Flash**: Flash the firmware to the board.
 3. **View UI**: battery icon/percentage in the top-right.
 
-#### Product Purchase Link
+### Product Purchase Link
 [2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### Product Information
+### Product Information
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
-#### Source Code
+### Source Code
 [08_battery_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/08_battery_test)

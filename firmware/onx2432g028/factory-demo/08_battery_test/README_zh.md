@@ -49,12 +49,12 @@
 2. **烧录**：烧录固件到开发板。
 3. **查看显示**：屏幕右上角显示电池图标与百分比/充电状态。
 
-#### 产品购买链接
+### 产品购买链接
 [2.8寸电容屏 ONX2432G028](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### 产品资料
+### 产品资料
 [2.8寸电容屏 ONX2432G028](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
-#### 源码
+### 源码
 [08_battery_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/08_battery_test)
 

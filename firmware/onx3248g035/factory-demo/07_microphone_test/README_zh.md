@@ -47,14 +47,14 @@
 4. **播放**：松开 MIC 按钮后开始循环播放。
 5. **停止**：点击 STOP 按钮停止录音和播放。
 
-#### 产品购买链接
+### 产品购买链接
 [3.5寸电容屏 ONX3248G035](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 [双麦扩展板](https://itead.cc/product/nextion-dual-mic-board/)
 [喇叭](https://itead.cc/product/nextion-box-speaker/)
 
-#### 产品资料：
+### 产品资料：
 [3.5寸电容屏 ONX3248G035](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
-#### 源码
+### 源码
 [07_microphone_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/07_microphone_test)
 

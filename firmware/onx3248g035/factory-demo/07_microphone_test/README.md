@@ -47,13 +47,13 @@ This example demonstrates microphone capture, AFE processing, and playback on th
 4. **Playback**: release MIC to loop playback.
 5. **Stop**: tap STOP to stop recording/playback.
 
-#### Product Purchase Link
+### Product Purchase Link
 [3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 [Dual MIC Board](https://itead.cc/product/nextion-dual-mic-board/)
 [speaker](https://itead.cc/product/nextion-box-speaker/)
 
-#### Product Information
+### Product Information
 [3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
-#### Source Code
+### Source Code
 [07_microphone_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/07_microphone_test)

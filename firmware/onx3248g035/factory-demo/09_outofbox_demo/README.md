@@ -39,11 +39,11 @@ This example is an out-of-box demo for the ONX3248G035 development board (ESP32-
 2. **Flash**: Flash the firmware to the board.
 3. **View demo**: the widgets demo starts automatically after boot.
 
-#### Product Purchase Link
+### Product Purchase Link
 [3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### Product Information
+### Product Information
 [3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
-#### Source Code
+### Source Code
 [09_outofbox_demo](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/09_outofbox_demo)

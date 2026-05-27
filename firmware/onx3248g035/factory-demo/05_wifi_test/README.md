@@ -39,12 +39,12 @@ This example demonstrates Wi-Fi scanning, connection, and status display on the 
 2. **Flash**: Flash the firmware to the board.
 3. **Provision Wi-Fi**: scan and select SSID on the screen, then enter password.
 
-#### Product Purchase Link
+### Product Purchase Link
 [3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### Product Information
+### Product Information
 [3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
-#### Source Code
+### Source Code
 [05_wifi_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/05_wifi_test)
 

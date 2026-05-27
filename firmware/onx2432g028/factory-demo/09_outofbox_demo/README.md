@@ -39,12 +39,12 @@ This example is an out-of-box demo for the ONX2432G028 development board (ESP32-
 2. **Flash**: Flash the firmware to the board.
 3. **View demo**: the widgets demo starts automatically after boot.
 
-#### Product Purchase Link
+### Product Purchase Link
 [2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### Product Information
+### Product Information
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
-#### Source Code
+### Source Code
 [09_outofbox_demo](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/09_outofbox_demo)
 

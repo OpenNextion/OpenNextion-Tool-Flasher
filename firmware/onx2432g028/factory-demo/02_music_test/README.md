@@ -47,13 +47,13 @@ This example demonstrates playing audio from an SD card on the ONX2432G028 devel
 4. **Flash**: Flash the firmware to the board.
 5. **Use the touch UI** to select and play tracks.
 
-#### Product Purchase Link
+### Product Purchase Link
 [2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 [speaker](https://itead.cc/product/nextion-box-speaker/)
 
-#### Product Information
+### Product Information
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
-#### Source Code
+### Source Code
 [02_music_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/02_music_test)
 

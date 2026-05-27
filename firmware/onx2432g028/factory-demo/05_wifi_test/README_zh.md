@@ -39,12 +39,12 @@
 2. **烧录**：烧录固件到开发板。
 3. **开始配网**：启动后在屏幕上扫描并选择热点，输入密码后连接。
 
-#### 产品购买链接
+### 产品购买链接
 [2.8寸电容屏 ONX2432G028](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
-#### 产品资料
+### 产品资料
 [2.8寸电容屏 ONX2432G028](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
-#### 源码
+### 源码
 [05_wifi_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/05_wifi_test)
 

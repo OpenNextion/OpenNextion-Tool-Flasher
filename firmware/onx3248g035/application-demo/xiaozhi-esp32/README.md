@@ -35,13 +35,13 @@ This example aims to demonstrate the XiaoZhi AI voice features.
 | LCD BL | GPIO_NUM_6 | Backlight (PWM) |
 | LCD RST | - | Controlled via PCF8574 |
 
-#### Product Purchase Link
+### Product Purchase Link
 [3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 [Dual MIC Board](https://itead.cc/product/nextion-dual-mic-board/)
 [speaker](https://itead.cc/product/nextion-box-speaker/)
 
-#### Product Resources
+### Product Resources
 [3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
-#### Source code
+### Source code
 [OpenNextion-Example-xiaozhi-esp32](https://github.com/OpenNextion/OpenNextion-Example-xiaozhi-esp32)
