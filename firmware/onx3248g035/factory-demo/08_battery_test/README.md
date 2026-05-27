@@ -2,7 +2,7 @@
 
 ## Overview
 
-This example shows how to estimate battery level using ADC sampling and display the percentage and charging state on the LCD of the ONX2432G028 development board (ESP32-S3).
+This example shows how to estimate battery level using ADC sampling and display the percentage and charging state on the LCD of the ONX3248G035 development board (ESP32-S3).
 
 ## Features
 
@@ -14,7 +14,7 @@ This example shows how to estimate battery level using ADC sampling and display 
 ## Hardware Requirements
 
 - **MCU**: ESP32-S3 Development Board
-- **LCD**: 2.8-inch ST7789 SPI TFT LCD (240x320)
+- **LCD**: 3.5-inch ST7796U SPI TFT LCD (320x480)
 - **Touch**: CST826 I2C capacitive touch controller
 - **IO Expander**: PCF8574 I2C IO expander
 - **Battery divider**: resistor divider per schematic
@@ -50,10 +50,10 @@ This example shows how to estimate battery level using ADC sampling and display 
 3. **View UI**: battery icon/percentage in the top-right.
 
 #### Product Purchase Link
-[2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
+[3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
 #### Product Information
-[2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
+[3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 #### Source Code
-[08_battery_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/08_battery_test)
+[08_battery_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/08_battery_test)

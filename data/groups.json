@@ -1,17 +1,24 @@
 [
   {
     "id": "factory",
-    "name": "出厂演示",
-    "description": "适合首次上电验机、屏幕触摸测试和功能展示。"
+    "name": {
+      "zh": "出厂演示",
+      "en": "Factory Demo"
+    },
+    "description": {
+      "zh": "适合首次上电验机、屏幕触摸测试和板载外设功能展示。",
+      "en": "Factory examples for first power-on checks, touch/display tests, and onboard peripheral demos."
+    }
   },
   {
-    "id": "graphics",
-    "name": "图形界面",
-    "description": "LVGL、仪表盘、动画和多页面 UI 例程。"
-  },
-  {
-    "id": "connectivity",
-    "name": "联网功能",
-    "description": "Wi-Fi、蓝牙、MQTT、HTTP 等联网例程。"
+    "id": "application",
+    "name": {
+      "zh": "应用例程",
+      "en": "Application Demo"
+    },
+    "description": {
+      "zh": "面向实际应用场景的完整功能例程。",
+      "en": "Complete examples for real application scenarios."
+    }
   }
 ]

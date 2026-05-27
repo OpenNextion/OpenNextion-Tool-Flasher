@@ -2,7 +2,7 @@
 
 ## Overview
 
-This example demonstrates microphone capture, AFE processing, and playback on the ONX2432G028 development board (ESP32-S3). The LVGL UI provides MIC (record), release-to-play, and STOP controls.
+This example demonstrates microphone capture, AFE processing, and playback on the ONX3248G035 development board (ESP32-S3). The LVGL UI provides MIC (record), release-to-play, and STOP controls.
 
 ## Features
 
@@ -14,7 +14,7 @@ This example demonstrates microphone capture, AFE processing, and playback on th
 ## Hardware Requirements
 
 - **MCU**: ESP32-S3 Development Board
-- **LCD**: 2.8-inch ST7789 SPI TFT LCD (240x320)
+- **LCD**: 3.5-inch ST7796U SPI TFT LCD (320x480)
 - **Touch**: CST826 I2C capacitive touch controller
 - **IO Expander**: PCF8574 I2C IO expander
 - **Microphone**: External  PDM mic
@@ -48,12 +48,12 @@ This example demonstrates microphone capture, AFE processing, and playback on th
 5. **Stop**: tap STOP to stop recording/playback.
 
 #### Product Purchase Link
-[2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
+[3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 [Dual MIC Board](https://itead.cc/product/nextion-dual-mic-board/)
 [speaker](https://itead.cc/product/nextion-box-speaker/)
 
 #### Product Information
-[2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
+[3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 #### Source Code
-[07_microphone_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/07_microphone_test)
+[07_microphone_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/07_microphone_test)

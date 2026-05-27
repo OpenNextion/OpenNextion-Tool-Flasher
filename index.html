@@ -14,44 +14,55 @@
     <header class="topbar">
       <div>
         <p class="eyebrow">OpenNextion Flasher</p>
-        <h1>在线固件烧录工具</h1>
+        <h1 data-i18n="appTitle">在线固件烧录工具</h1>
       </div>
-      <div class="browser-status" id="browserStatus">正在检测浏览器能力...</div>
+      <div class="topbar-actions">
+        <label class="language-switch">
+          <span data-i18n="languageLabel">语言</span>
+          <select id="languageSelect" aria-label="Language">
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+        <div class="browser-status" id="browserStatus" data-i18n="browserChecking">
+          正在检测浏览器能力...
+        </div>
+      </div>
     </header>
 
     <main class="app-shell">
-      <section class="panel controls-panel" aria-label="烧录配置">
+      <section class="panel controls-panel" aria-label="烧录配置" data-i18n-aria-label="controlsPanel">
         <div class="step">
           <div class="step-title">
             <span>1</span>
-            <h2>选择板型</h2>
+            <h2 data-i18n="selectBoard">选择板型</h2>
           </div>
-          <select id="boardSelect" aria-label="选择板型"></select>
+          <select id="boardSelect" aria-label="选择板型" data-i18n-aria-label="selectBoard"></select>
           <div class="board-card" id="boardInfo"></div>
         </div>
 
         <div class="step">
           <div class="step-title">
             <span>2</span>
-            <h2>选择固件来源</h2>
+            <h2 data-i18n="selectSource">选择固件来源</h2>
           </div>
-          <div class="segmented" role="tablist" aria-label="固件来源">
-            <button class="active" id="cloudSourceBtn" type="button">云端固件</button>
-            <button id="localSourceBtn" type="button">本地固件</button>
+          <div class="segmented" role="tablist" aria-label="固件来源" data-i18n-aria-label="selectSource">
+            <button class="active" id="cloudSourceBtn" type="button" data-i18n="cloudFirmware">云端固件</button>
+            <button id="localSourceBtn" type="button" data-i18n="localFirmware">本地固件</button>
           </div>
         </div>
 
         <div class="step source-pane" id="cloudPane">
           <div class="step-title">
             <span>3</span>
-            <h2>选择例程</h2>
+            <h2 data-i18n="selectExample">选择例程</h2>
           </div>
           <label>
-            例程分组
+            <span data-i18n="exampleGroup">例程分组</span>
             <select id="groupSelect"></select>
           </label>
           <label>
-            具体固件
+            <span data-i18n="firmwareItem">具体固件</span>
             <select id="firmwareSelect"></select>
           </label>
           <div class="firmware-meta" id="firmwareMeta"></div>
@@ -60,24 +71,24 @@
         <div class="step source-pane hidden" id="localPane">
           <div class="step-title">
             <span>3</span>
-            <h2>上传本地固件</h2>
+            <h2 data-i18n="uploadLocal">上传本地固件</h2>
           </div>
-          <p class="hint">
+          <p class="hint" data-i18n="localHint">
             支持单个合并固件，也支持 bootloader、partition、app 等多个 bin 文件分别指定地址。
           </p>
           <div id="localFiles"></div>
-          <button class="secondary" id="addLocalFileBtn" type="button">添加 bin 文件</button>
+          <button class="secondary" id="addLocalFileBtn" type="button" data-i18n="addBinFile">添加 bin 文件</button>
         </div>
 
         <details class="step advanced-step" id="advancedSettings">
           <summary>
             <span>4</span>
-            <strong>烧录参数</strong>
+            <strong data-i18n="flashSettings">烧录参数</strong>
             <em id="settingsSummary">使用板型默认参数</em>
           </summary>
           <div class="settings-grid">
             <label>
-              波特率
+              <span data-i18n="baudRate">波特率</span>
               <select id="baudRate">
                 <option value="115200">115200</option>
                 <option value="460800">460800</option>
@@ -85,7 +96,7 @@
               </select>
             </label>
             <label>
-              Flash Mode
+              <span data-i18n="flashMode">Flash Mode</span>
               <select id="flashMode">
                 <option value="dio">dio</option>
                 <option value="qio">qio</option>
@@ -94,7 +105,7 @@
               </select>
             </label>
             <label>
-              Flash Freq
+              <span data-i18n="flashFreq">Flash Freq</span>
               <select id="flashFreq">
                 <option value="40m">40m</option>
                 <option value="80m">80m</option>
@@ -103,7 +114,7 @@
               </select>
             </label>
             <label>
-              Flash Size
+              <span data-i18n="flashSize">Flash Size</span>
               <select id="flashSize">
                 <option value="4MB">4MB</option>
                 <option value="8MB">8MB</option>
@@ -112,58 +123,58 @@
               </select>
             </label>
             <label>
-              完成后复位
+              <span data-i18n="resetAfterFlash">完成后复位</span>
               <select id="resetMode">
-                <option value="inverted-rts">反相 RTS 复位</option>
-                <option value="esptool">RTS 硬复位</option>
-                <option value="classic-run">Classic 运行复位</option>
-                <option value="soft">软件复位</option>
-                <option value="custom">自定义时序</option>
-                <option value="none">不复位</option>
+                <option value="inverted-rts" data-i18n="resetInvertedRts">反相 RTS 复位</option>
+                <option value="esptool" data-i18n="resetEsptool">RTS 硬复位</option>
+                <option value="classic-run" data-i18n="resetClassic">Classic 运行复位</option>
+                <option value="soft" data-i18n="resetSoft">软件复位</option>
+                <option value="custom" data-i18n="resetCustom">自定义时序</option>
+                <option value="none" data-i18n="resetNone">不复位</option>
               </select>
             </label>
             <label>
-              断开延迟
+              <span data-i18n="disconnectDelay">断开延迟</span>
               <select id="disconnectDelay">
-                <option value="800">0.8 秒</option>
-                <option value="-1">保持连接</option>
-                <option value="3000">3 秒</option>
-                <option value="8000">8 秒</option>
+                <option value="800" data-i18n="delay08">0.8 秒</option>
+                <option value="-1" data-i18n="delayKeep">保持连接</option>
+                <option value="3000" data-i18n="delay3">3 秒</option>
+                <option value="8000" data-i18n="delay8">8 秒</option>
               </select>
             </label>
           </div>
           <label class="hidden" id="customResetLabel">
-            自定义复位时序
+            <span data-i18n="customResetSequence">自定义复位时序</span>
             <input id="customResetSequence" type="text" value="D0|R1|W100|R0|W500|D0|R0" />
           </label>
           <label class="checkline">
             <input id="eraseAll" type="checkbox" />
-            烧录前擦除整片 Flash
+            <span data-i18n="eraseAll">烧录前擦除整片 Flash</span>
           </label>
         </details>
 
-        <button class="primary" id="flashBtn" type="button">选择串口并开始烧录</button>
+        <button class="primary" id="flashBtn" type="button" data-i18n="startFlash">选择串口并开始烧录</button>
       </section>
 
       <section class="workspace">
-        <article class="panel preview-panel" aria-label="固件说明">
+        <article class="panel preview-panel" aria-label="固件说明" data-i18n-aria-label="firmwareNotes">
           <div class="section-heading">
             <p class="eyebrow">Firmware Notes</p>
-            <h2 id="previewTitle">固件说明</h2>
+            <h2 id="previewTitle" data-i18n="firmwareNotes">固件说明</h2>
           </div>
           <div class="markdown-body" id="markdownPreview"></div>
         </article>
 
-        <article class="panel progress-panel" aria-label="烧录进度">
+        <article class="panel progress-panel" aria-label="烧录进度" data-i18n-aria-label="flashProgress">
           <div class="section-heading">
             <p class="eyebrow">Flashing</p>
-            <h2>烧录进度</h2>
+            <h2 data-i18n="flashProgress">烧录进度</h2>
           </div>
           <div class="progress-wrap">
             <div class="progress-track">
               <div class="progress-bar" id="progressBar"></div>
             </div>
-            <div class="progress-text" id="progressText">等待开始</div>
+            <div class="progress-text" id="progressText" data-i18n="waitingStart">等待开始</div>
           </div>
           <pre class="log" id="logOutput" aria-live="polite"></pre>
         </article>
@@ -173,8 +184,8 @@
     <template id="localFileTemplate">
       <div class="local-file-row">
         <input type="file" accept=".bin,application/octet-stream" />
-        <input type="text" value="0x10000" aria-label="烧录地址" />
-        <button class="icon-button" type="button" aria-label="移除">×</button>
+        <input type="text" value="0x10000" aria-label="烧录地址" data-i18n-aria-label="flashAddress" />
+        <button class="icon-button" type="button" aria-label="移除" data-i18n-aria-label="remove">×</button>
       </div>
     </template>
 

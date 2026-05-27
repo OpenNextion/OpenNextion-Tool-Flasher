@@ -1,147 +1,661 @@
 [
   {
-    "id": "onx2432g028-factory-demo-01",
-    "name": "01_touch_test",
+    "id": "onx2432g028-factory-demo-01_touch_test",
+    "name": {
+      "zh": "01 触摸测试",
+      "en": "01 Touch Test"
+    },
     "groupId": "factory",
-    "boardIds": ["onx2432g028"],
-    "version": "v0.1.0",
-    "summary": "01_touch_test",
-    "description": "用于 ONX2432G028 的出厂验机和用户首次体验。",
-    "markdown": "./firmware/onx2432g028/factory-demo/01_touch_test/README.md",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX2432G028 触摸坐标检测与屏幕触摸轨迹显示。",
+      "en": "ONX2432G028 Touch coordinate detection and on-screen touch trace display."
+    },
+    "description": {
+      "zh": "ONX2432G028 出厂演示例程。",
+      "en": "ONX2432G028 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/factory-demo/01_touch_test/README_zh.md",
+      "en": "./firmware/onx2432g028/factory-demo/01_touch_test/README.md"
+    },
     "files": [
       {
-        "path": "./firmware/onx2432g028/factory-demo/01_touch_test/touch_test.bin",
+        "path": "./firmware/onx2432g028/factory-demo/01_touch_test/01_touch_test.bin",
         "address": "0x0"
       }
     ]
   },
   {
-    "id": "onx2432g028-factory-demo-02",
-    "name": "02_music_test",
+    "id": "onx2432g028-factory-demo-02_music_test",
+    "name": {
+      "zh": "02 音乐播放测试",
+      "en": "02 Music Playback Test"
+    },
     "groupId": "factory",
-    "boardIds": ["onx2432g028"],
-    "version": "v0.1.0",
-    "summary": "02_music_test",
-    "description": "用于 ONX2432G028 的出厂验机和用户首次体验。",
-    "markdown": "./firmware/onx2432g028/factory-demo/02_music_test/README.md",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX2432G028 从 SD 卡读取音乐并通过触摸界面控制播放。",
+      "en": "ONX2432G028 Reads music from an SD card and controls playback through a touch UI."
+    },
+    "description": {
+      "zh": "ONX2432G028 出厂演示例程。",
+      "en": "ONX2432G028 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/factory-demo/02_music_test/README_zh.md",
+      "en": "./firmware/onx2432g028/factory-demo/02_music_test/README.md"
+    },
     "files": [
       {
-        "path": "./firmware/onx2432g028/factory-demo/02_music_test/music_test.bin",
+        "path": "./firmware/onx2432g028/factory-demo/02_music_test/02_music_test.bin",
         "address": "0x0"
       }
     ]
   },
   {
-    "id": "onx2432g028-factory-demo-03",
-    "name": "03_sd_card_image_test",
+    "id": "onx2432g028-factory-demo-03_sd_card_image_test",
+    "name": {
+      "zh": "03 SD 卡图片测试",
+      "en": "03 SD Card Image Test"
+    },
     "groupId": "factory",
-    "boardIds": ["onx2432g028"],
-    "version": "v0.1.0",
-    "summary": "03_sd_card_image_test",
-    "description": "用于 ONX2432G028 的出厂验机和用户首次体验。",
-    "markdown": "./firmware/onx2432g028/factory-demo/03_sd_card_image_test/README.md",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX2432G028 读取 SD 卡中的图片并在屏幕上浏览显示。",
+      "en": "ONX2432G028 Reads images from an SD card and displays them on the screen."
+    },
+    "description": {
+      "zh": "ONX2432G028 出厂演示例程。",
+      "en": "ONX2432G028 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/factory-demo/03_sd_card_image_test/README_zh.md",
+      "en": "./firmware/onx2432g028/factory-demo/03_sd_card_image_test/README.md"
+    },
     "files": [
       {
-        "path": "./firmware/onx2432g028/factory-demo/03_sd_card_image_test/sd_card_image_test.bin",
+        "path": "./firmware/onx2432g028/factory-demo/03_sd_card_image_test/03_sd_card_image_test.bin",
         "address": "0x0"
       }
     ]
   },
-
-
   {
-    "id": "onx2432g028-factory-demo",
-    "name": "ONX2432G028 出厂综合演示",
+    "id": "onx2432g028-factory-demo-04_sd_card_test",
+    "name": {
+      "zh": "04 SD 卡测试",
+      "en": "04 SD Card Test"
+    },
     "groupId": "factory",
-    "boardIds": ["onx2432g028"],
-    "version": "v0.1.0",
-    "summary": "屏幕、触摸、背光、串口和基础控件综合测试。",
-    "description": "用于 ONX2432G028 的出厂验机和用户首次体验。",
-    "markdown": "./firmware/onx2432g028/factory-demo/README.md",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX2432G028 验证 SD 卡挂载、文件读写和存储功能。",
+      "en": "ONX2432G028 Verifies SD card mounting, file I/O, and storage functions."
+    },
+    "description": {
+      "zh": "ONX2432G028 出厂演示例程。",
+      "en": "ONX2432G028 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/factory-demo/04_sd_card_test/README_zh.md",
+      "en": "./firmware/onx2432g028/factory-demo/04_sd_card_test/README.md"
+    },
     "files": [
       {
-        "path": "./firmware/onx2432g028/factory-demo/bootloader.bin",
+        "path": "./firmware/onx2432g028/factory-demo/04_sd_card_test/04_sd_card_test.bin",
         "address": "0x0"
-      },
-      {
-        "path": "./firmware/onx2432g028/factory-demo/partitions.bin",
-        "address": "0x8000"
-      },
-      {
-        "path": "./firmware/onx2432g028/factory-demo/app.bin",
-        "address": "0x10000"
       }
     ]
   },
   {
-    "id": "onx2432g028-lvgl-dashboard",
-    "name": "ONX2432G028 LVGL 仪表盘",
-    "groupId": "graphics",
-    "boardIds": ["onx2432g028"],
-    "version": "v0.1.0",
-    "summary": "展示 LVGL 控件、动画和实时数据仪表盘布局。",
-    "description": "适合展示图形界面能力。",
-    "markdown": "./firmware/onx2432g028/lvgl-dashboard/README.md",
-    "files": [
-      {
-        "path": "./firmware/onx2432g028/lvgl-dashboard/bootloader.bin",
-        "address": "0x0"
-      },
-      {
-        "path": "./firmware/onx2432g028/lvgl-dashboard/partitions.bin",
-        "address": "0x8000"
-      },
-      {
-        "path": "./firmware/onx2432g028/lvgl-dashboard/app.bin",
-        "address": "0x10000"
-      }
-    ]
-  },
-  {
-    "id": "onx3248g035-factory-demo",
-    "name": "ONX3248G035 出厂综合演示",
+    "id": "onx2432g028-factory-demo-05_wifi_test",
+    "name": {
+      "zh": "05 Wi-Fi 测试",
+      "en": "05 Wi-Fi Test"
+    },
     "groupId": "factory",
-    "boardIds": ["onx3248g035"],
-    "version": "v0.1.0",
-    "summary": "适配 3.5 英寸屏幕的出厂演示和基础硬件测试。",
-    "description": "用于 ONX3248G035 的快速验机。",
-    "markdown": "./firmware/onx3248g035/factory-demo/README.md",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX2432G028 验证 Wi-Fi 扫描、连接或网络相关功能。",
+      "en": "ONX2432G028 Verifies Wi-Fi scan, connection, or network-related functions."
+    },
+    "description": {
+      "zh": "ONX2432G028 出厂演示例程。",
+      "en": "ONX2432G028 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/factory-demo/05_wifi_test/README_zh.md",
+      "en": "./firmware/onx2432g028/factory-demo/05_wifi_test/README.md"
+    },
     "files": [
       {
-        "path": "./firmware/onx3248g035/factory-demo/bootloader.bin",
+        "path": "./firmware/onx2432g028/factory-demo/05_wifi_test/05_wifi_test.bin",
         "address": "0x0"
-      },
-      {
-        "path": "./firmware/onx3248g035/factory-demo/partitions.bin",
-        "address": "0x8000"
-      },
-      {
-        "path": "./firmware/onx3248g035/factory-demo/app.bin",
-        "address": "0x10000"
       }
     ]
   },
   {
-    "id": "onx3248g035-wifi-mqtt",
-    "name": "ONX3248G035 Wi-Fi MQTT 面板",
-    "groupId": "connectivity",
-    "boardIds": ["onx3248g035"],
-    "version": "v0.1.0",
-    "summary": "演示 Wi-Fi 配网、MQTT 数据订阅和状态面板。",
-    "description": "适合联网控制面板和智能家居场景展示。",
-    "markdown": "./firmware/onx3248g035/wifi-mqtt/README.md",
+    "id": "onx2432g028-factory-demo-06_camera_test",
+    "name": {
+      "zh": "06 摄像头测试",
+      "en": "06 Camera Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX2432G028 验证摄像头采集和屏幕显示功能。",
+      "en": "ONX2432G028 Verifies camera capture and screen display functions."
+    },
+    "description": {
+      "zh": "ONX2432G028 出厂演示例程。",
+      "en": "ONX2432G028 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/factory-demo/06_camera_test/README_zh.md",
+      "en": "./firmware/onx2432g028/factory-demo/06_camera_test/README.md"
+    },
     "files": [
       {
-        "path": "./firmware/onx3248g035/wifi-mqtt/bootloader.bin",
+        "path": "./firmware/onx2432g028/factory-demo/06_camera_test/06_camera_test.bin",
         "address": "0x0"
-      },
+      }
+    ]
+  },
+  {
+    "id": "onx2432g028-factory-demo-07_microphone_test",
+    "name": {
+      "zh": "07 麦克风测试",
+      "en": "07 Microphone Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX2432G028 验证麦克风采集与音频输入功能。",
+      "en": "ONX2432G028 Verifies microphone capture and audio input functions."
+    },
+    "description": {
+      "zh": "ONX2432G028 出厂演示例程。",
+      "en": "ONX2432G028 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/factory-demo/07_microphone_test/README_zh.md",
+      "en": "./firmware/onx2432g028/factory-demo/07_microphone_test/README.md"
+    },
+    "files": [
       {
-        "path": "./firmware/onx3248g035/wifi-mqtt/partitions.bin",
-        "address": "0x8000"
-      },
+        "path": "./firmware/onx2432g028/factory-demo/07_microphone_test/07_microphone_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx2432g028-factory-demo-08_battery_test",
+    "name": {
+      "zh": "08 电池电量测试",
+      "en": "08 Battery Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX2432G028 验证电池电量检测和电源管理相关显示。",
+      "en": "ONX2432G028 Verifies battery level detection and power-management display."
+    },
+    "description": {
+      "zh": "ONX2432G028 出厂演示例程。",
+      "en": "ONX2432G028 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/factory-demo/08_battery_test/README_zh.md",
+      "en": "./firmware/onx2432g028/factory-demo/08_battery_test/README.md"
+    },
+    "files": [
       {
-        "path": "./firmware/onx3248g035/wifi-mqtt/app.bin",
-        "address": "0x10000"
+        "path": "./firmware/onx2432g028/factory-demo/08_battery_test/08_battery_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx2432g028-factory-demo-09_outofbox_demo",
+    "name": {
+      "zh": "09 出厂演示",
+      "en": "09 Out-of-Box Demo"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX2432G028 完整出厂演示固件，用于综合功能展示。",
+      "en": "ONX2432G028 Full out-of-box demo firmware for integrated feature demonstration."
+    },
+    "description": {
+      "zh": "ONX2432G028 出厂演示例程。",
+      "en": "ONX2432G028 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/factory-demo/09_outofbox_demo/README_zh.md",
+      "en": "./firmware/onx2432g028/factory-demo/09_outofbox_demo/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/factory-demo/09_outofbox_demo/09_outofbox_demo.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx2432g028-application-demo-xiaozhi-esp32-cn",
+    "name": {
+      "zh": "小智 AI（中文唤醒词）",
+      "en": "XiaoZhi AI (Chinese Wake Word)"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v2.2.6",
+    "summary": {
+      "zh": "ONX2432G028 小智 AI 语音例程，中文唤醒词：你好小智。",
+      "en": "ONX2432G028 XiaoZhi AI voice example. Chinese wake word: Ni Hao Xiao Zhi."
+    },
+    "description": {
+      "zh": "演示小智 AI 语音对话能力。",
+      "en": "Demonstrates XiaoZhi AI voice conversation features."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/application-demo/xiaozhi-esp32/README_zh.md",
+      "en": "./firmware/onx2432g028/application-demo/xiaozhi-esp32/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/application-demo/xiaozhi-esp32/xiaozhi_V2.2.6_merged_ONX2432G028_cn_你好小智.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx2432g028-application-demo-xiaozhi-esp32-en",
+    "name": {
+      "zh": "小智 AI（英文唤醒词）",
+      "en": "XiaoZhi AI (English Wake Word)"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v2.2.6",
+    "summary": {
+      "zh": "ONX2432G028 小智 AI 语音例程，英文唤醒词：Jarvis。",
+      "en": "ONX2432G028 XiaoZhi AI voice example. English wake word: Jarvis."
+    },
+    "description": {
+      "zh": "演示小智 AI 语音对话能力。",
+      "en": "Demonstrates XiaoZhi AI voice conversation features."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/application-demo/xiaozhi-esp32/README_zh.md",
+      "en": "./firmware/onx2432g028/application-demo/xiaozhi-esp32/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/application-demo/xiaozhi-esp32/xiaozhi_V2.2.6_merged_ONX2432G028_en_Jarvis.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-factory-demo-01_touch_test",
+    "name": {
+      "zh": "01 触摸测试",
+      "en": "01 Touch Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX3248G035 触摸坐标检测与屏幕触摸轨迹显示。",
+      "en": "ONX3248G035 Touch coordinate detection and on-screen touch trace display."
+    },
+    "description": {
+      "zh": "ONX3248G035 出厂演示例程。",
+      "en": "ONX3248G035 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/factory-demo/01_touch_test/README_zh.md",
+      "en": "./firmware/onx3248g035/factory-demo/01_touch_test/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/factory-demo/01_touch_test/01_touch_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-factory-demo-02_music_test",
+    "name": {
+      "zh": "02 音乐播放测试",
+      "en": "02 Music Playback Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX3248G035 从 SD 卡读取音乐并通过触摸界面控制播放。",
+      "en": "ONX3248G035 Reads music from an SD card and controls playback through a touch UI."
+    },
+    "description": {
+      "zh": "ONX3248G035 出厂演示例程。",
+      "en": "ONX3248G035 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/factory-demo/02_music_test/README_zh.md",
+      "en": "./firmware/onx3248g035/factory-demo/02_music_test/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/factory-demo/02_music_test/02_music_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-factory-demo-03_sd_card_image_test",
+    "name": {
+      "zh": "03 SD 卡图片测试",
+      "en": "03 SD Card Image Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX3248G035 读取 SD 卡中的图片并在屏幕上浏览显示。",
+      "en": "ONX3248G035 Reads images from an SD card and displays them on the screen."
+    },
+    "description": {
+      "zh": "ONX3248G035 出厂演示例程。",
+      "en": "ONX3248G035 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/factory-demo/03_sd_card_image_test/README_zh.md",
+      "en": "./firmware/onx3248g035/factory-demo/03_sd_card_image_test/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/factory-demo/03_sd_card_image_test/03_sd_card_image_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-factory-demo-04_sd_card_test",
+    "name": {
+      "zh": "04 SD 卡测试",
+      "en": "04 SD Card Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX3248G035 验证 SD 卡挂载、文件读写和存储功能。",
+      "en": "ONX3248G035 Verifies SD card mounting, file I/O, and storage functions."
+    },
+    "description": {
+      "zh": "ONX3248G035 出厂演示例程。",
+      "en": "ONX3248G035 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/factory-demo/04_sd_card_test/README_zh.md",
+      "en": "./firmware/onx3248g035/factory-demo/04_sd_card_test/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/factory-demo/04_sd_card_test/04_sd_card_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-factory-demo-05_wifi_test",
+    "name": {
+      "zh": "05 Wi-Fi 测试",
+      "en": "05 Wi-Fi Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX3248G035 验证 Wi-Fi 扫描、连接或网络相关功能。",
+      "en": "ONX3248G035 Verifies Wi-Fi scan, connection, or network-related functions."
+    },
+    "description": {
+      "zh": "ONX3248G035 出厂演示例程。",
+      "en": "ONX3248G035 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/factory-demo/05_wifi_test/README_zh.md",
+      "en": "./firmware/onx3248g035/factory-demo/05_wifi_test/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/factory-demo/05_wifi_test/05_wifi_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-factory-demo-06_camera_test",
+    "name": {
+      "zh": "06 摄像头测试",
+      "en": "06 Camera Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX3248G035 验证摄像头采集和屏幕显示功能。",
+      "en": "ONX3248G035 Verifies camera capture and screen display functions."
+    },
+    "description": {
+      "zh": "ONX3248G035 出厂演示例程。",
+      "en": "ONX3248G035 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/factory-demo/06_camera_test/README_zh.md",
+      "en": "./firmware/onx3248g035/factory-demo/06_camera_test/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/factory-demo/06_camera_test/06_camera_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-factory-demo-07_microphone_test",
+    "name": {
+      "zh": "07 麦克风测试",
+      "en": "07 Microphone Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX3248G035 验证麦克风采集与音频输入功能。",
+      "en": "ONX3248G035 Verifies microphone capture and audio input functions."
+    },
+    "description": {
+      "zh": "ONX3248G035 出厂演示例程。",
+      "en": "ONX3248G035 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/factory-demo/07_microphone_test/README_zh.md",
+      "en": "./firmware/onx3248g035/factory-demo/07_microphone_test/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/factory-demo/07_microphone_test/07_microphone_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-factory-demo-08_battery_test",
+    "name": {
+      "zh": "08 电池电量测试",
+      "en": "08 Battery Test"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX3248G035 验证电池电量检测和电源管理相关显示。",
+      "en": "ONX3248G035 Verifies battery level detection and power-management display."
+    },
+    "description": {
+      "zh": "ONX3248G035 出厂演示例程。",
+      "en": "ONX3248G035 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/factory-demo/08_battery_test/README_zh.md",
+      "en": "./firmware/onx3248g035/factory-demo/08_battery_test/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/factory-demo/08_battery_test/08_battery_test.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-factory-demo-09_outofbox_demo",
+    "name": {
+      "zh": "09 出厂演示",
+      "en": "09 Out-of-Box Demo"
+    },
+    "groupId": "factory",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v1.0.0",
+    "summary": {
+      "zh": "ONX3248G035 完整出厂演示固件，用于综合功能展示。",
+      "en": "ONX3248G035 Full out-of-box demo firmware for integrated feature demonstration."
+    },
+    "description": {
+      "zh": "ONX3248G035 出厂演示例程。",
+      "en": "ONX3248G035 factory demo example."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/factory-demo/09_outofbox_demo/README_zh.md",
+      "en": "./firmware/onx3248g035/factory-demo/09_outofbox_demo/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/factory-demo/09_outofbox_demo/09_outofbox_demo.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-application-demo-xiaozhi-esp32-cn",
+    "name": {
+      "zh": "小智 AI（中文唤醒词）",
+      "en": "XiaoZhi AI (Chinese Wake Word)"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v2.2.6",
+    "summary": {
+      "zh": "ONX3248G035 小智 AI 语音例程，中文唤醒词：你好小智。",
+      "en": "ONX3248G035 XiaoZhi AI voice example. Chinese wake word: Ni Hao Xiao Zhi."
+    },
+    "description": {
+      "zh": "演示小智 AI 语音对话能力。",
+      "en": "Demonstrates XiaoZhi AI voice conversation features."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/application-demo/xiaozhi-esp32/README_zh.md",
+      "en": "./firmware/onx3248g035/application-demo/xiaozhi-esp32/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/application-demo/xiaozhi-esp32/xiaozhi_V2.2.6_merged_ONX3248G035_cn_你好小智.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-application-demo-xiaozhi-esp32-en",
+    "name": {
+      "zh": "小智 AI（英文唤醒词）",
+      "en": "XiaoZhi AI (English Wake Word)"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v2.2.6",
+    "summary": {
+      "zh": "ONX3248G035 小智 AI 语音例程，英文唤醒词：Jarvis。",
+      "en": "ONX3248G035 XiaoZhi AI voice example. English wake word: Jarvis."
+    },
+    "description": {
+      "zh": "演示小智 AI 语音对话能力。",
+      "en": "Demonstrates XiaoZhi AI voice conversation features."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/application-demo/xiaozhi-esp32/README_zh.md",
+      "en": "./firmware/onx3248g035/application-demo/xiaozhi-esp32/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/application-demo/xiaozhi-esp32/xiaozhi_V2.2.6_merged_ONX3248G035_en_Jarvis.bin",
+        "address": "0x0"
       }
     ]
   }

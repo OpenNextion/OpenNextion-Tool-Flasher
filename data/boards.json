@@ -13,7 +13,10 @@
       "resetMode": "inverted-rts",
       "disconnectDelay": 800
     },
-    "description": "ONX2432G028 是一款基于 ESP32-S3R8 的 2.8 英寸 Open Nextion HMI 开发板，集成电容触摸显示、2.4 GHz Wi-Fi、Bluetooth 5 LE、MicroSD、摄像头、麦克风、喇叭、电池管理和多种扩展接口，适合用于人机交互界面、物联网终端、音视频交互和快速原型开发。"
+    "description": {
+      "zh": "ONX2432G028 是一款基于 ESP32-S3R8 的 2.8 英寸 OpenNextion HMI 开发板，集成电容触摸显示、2.4 GHz Wi-Fi、Bluetooth 5 LE、MicroSD、摄像头、麦克风、喇叭、电池管理和多种扩展接口，适合用于人机交互界面、物联网终端、音视频交互和快速原型开发。",
+      "en": "ONX2432G028 is a 2.8-inch OpenNextion HMI development board based on ESP32-S3R8, integrating capacitive touch display, 2.4 GHz Wi-Fi, Bluetooth 5 LE, MicroSD, camera, microphone, speaker, battery management, and expansion interfaces for HMI, IoT terminals, audio/video interaction, and rapid prototyping."
+    }
   },
   {
     "id": "onx3248g035",
@@ -29,6 +32,9 @@
       "resetMode": "inverted-rts",
       "disconnectDelay": 800
     },
-    "description": "ONX3248G035 是一款基于 ESP32-S3R8 的 3.5 英寸 Open Nextion HMI 开发板，集成电容触摸显示、2.4 GHz Wi-Fi、Bluetooth 5 LE、MicroSD、摄像头、麦克风、喇叭、电池管理和多种扩展接口，适合用于人机交互界面、物联网终端、音视频交互和快速原型开发。"
+    "description": {
+      "zh": "ONX3248G035 是一款基于 ESP32-S3R8 的 3.5 英寸 OpenNextion HMI 开发板，集成电容触摸显示、2.4 GHz Wi-Fi、Bluetooth 5 LE、MicroSD、摄像头、麦克风、喇叭、电池管理和多种扩展接口，适合用于人机交互界面、物联网终端、音视频交互和快速原型开发。",
+      "en": "ONX3248G035 is a 3.5-inch OpenNextion HMI development board based on ESP32-S3R8, integrating capacitive touch display, 2.4 GHz Wi-Fi, Bluetooth 5 LE, MicroSD, camera, microphone, speaker, battery management, and expansion interfaces for HMI, IoT terminals, audio/video interaction, and rapid prototyping."
+    }
   }
 ]

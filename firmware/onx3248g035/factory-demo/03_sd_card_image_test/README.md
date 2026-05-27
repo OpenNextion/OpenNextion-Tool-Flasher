@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an example of reading and displaying images from an SD card on the ONX2432G028 development board (ESP32-S3). It uses the SPI interface to communicate with an ST7789 LCD screen and an SD card. The LVGL graphics library is used to render the images and display navigation buttons.
+This project is an example of reading and displaying images from an SD card on the ONX3248G035 development board (ESP32-S3). It uses the SPI interface to communicate with an ST7796U LCD screen and an SD card. The LVGL graphics library is used to render the images and display navigation buttons.
 
 The example scans the `images` folder in the root directory of the SD card for image files with `.jpg`, `.png`, `.bmp`, and `.bin` extensions. Users can switch between the images by swiping left and right on the touch screen, or by using the on-screen navigation buttons.
 
@@ -11,13 +11,13 @@ The example scans the `images` folder in the root directory of the SD card for i
 - **SD Card Integration**: Mounts an SD card in SPI mode and reads files from it.
 - **Image Decoding**: Supports decoding and displaying multiple image formats (JPG, PNG, BMP, BIN).
 - **LVGL UI**: Provides a simple user interface with buttons to navigate through images.
-- **Real-time Display**: Displays images on an ST7789 LCD screen.
-- **Touch Support**: Navigate images by swiping left or right.
+- **Real-time Display**: Displays images on an ST7796U LCD screen.
+- **Touch Support**:  Navigate images by swiping left or right .
 
 ## Hardware Requirements
 
 - **MCU**: ESP32-S3 Development Board
-- **LCD Screen**: 2.8-inch ST7789 SPI TFT LCD (Resolution: 240x320)
+- **LCD Screen**: 3.5-inch ST7796U SPI TFT LCD (Resolution: 320x480)
 - **Touch Controller**: CST826 I2C Capacitive Touch Controller
 - **SD Card**: A microSD card, formatted with FAT32.
 - **IO Expander**: PCF8574 I2C IO Expander (used for LCD reset).
@@ -49,10 +49,10 @@ The example scans the `images` folder in the root directory of the SD card for i
 3.  **Flash**: Flash the firmware to the board.
 
 #### Product Purchase Link
-[2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
+[3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
 #### Product Information
-[2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
+[3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 #### Source Code
-[03_sd_card_image_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/03_sd_card_image_test)
+[03_sd_card_image_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/03_sd_card_image_test)

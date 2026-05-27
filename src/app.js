@@ -4,7 +4,214 @@ const CONFIG_PATHS = {
   firmwares: "./data/firmwares.json",
 };
 
+const I18N = {
+  zh: {
+    pageTitle: "OpenNextion 在线固件烧录工具",
+    pageDescription: "OpenNextion 系列开发板在线固件烧录工具，支持云端例程和本地固件。",
+    appTitle: "在线固件烧录工具",
+    fieldSeparator: "：",
+    languageLabel: "语言",
+    browserChecking: "正在检测浏览器能力...",
+    browserOk: "浏览器支持 Web Serial，可以在线烧录。",
+    browserWarn: "当前浏览器不支持 Web Serial，请使用桌面版 Chrome 或 Edge。",
+    controlsPanel: "烧录配置",
+    selectBoard: "选择板型",
+    chip: "芯片",
+    defaultFlash: "默认 Flash",
+    defaultBaudRate: "默认波特率",
+    usbSerial: "USB 串口",
+    usbFallback: "按实际硬件配置",
+    selectSource: "选择固件来源",
+    cloudFirmware: "云端固件",
+    localFirmware: "本地固件",
+    selectExample: "选择例程",
+    exampleGroup: "例程分组",
+    firmwareItem: "具体固件",
+    uploadLocal: "上传本地固件",
+    localHint: "支持单个合并固件，也支持 bootloader、partition、app 等多个 bin 文件分别指定地址。",
+    addBinFile: "添加 bin 文件",
+    flashSettings: "烧录参数",
+    settingsDefault: "使用板型默认参数",
+    baudRate: "波特率",
+    flashMode: "Flash Mode",
+    flashFreq: "Flash Freq",
+    flashSize: "Flash Size",
+    resetAfterFlash: "完成后复位",
+    resetInvertedRts: "反相 RTS 复位",
+    resetEsptool: "RTS 硬复位",
+    resetClassic: "Classic 运行复位",
+    resetSoft: "软件复位",
+    resetCustom: "自定义时序",
+    resetNone: "不复位",
+    disconnectDelay: "断开延迟",
+    delay08: "0.8 秒",
+    delayKeep: "保持连接",
+    delay3: "3 秒",
+    delay8: "8 秒",
+    customResetSequence: "自定义复位时序",
+    eraseAll: "烧录前擦除整片 Flash",
+    startFlash: "选择串口并开始烧录",
+    flashing: "烧录中...",
+    failedRefresh: "烧录失败，请刷新页面后重试",
+    keepConnected: "串口保持连接，刷新页面后再次烧录",
+    firmwareNotes: "固件说明",
+    flashProgress: "烧录进度",
+    waitingStart: "等待开始",
+    flashAddress: "烧录地址",
+    remove: "移除",
+    configLoadFailed: "配置加载失败，请检查 data 目录下的 JSON 文件。",
+    initFailed: "初始化失败",
+    jsonLoadFailed: "加载失败",
+    noFirmwareTitle: "暂无固件",
+    noFirmwareMeta: "当前板型还没有配置云端固件。",
+    noFirmwareHelp: "请在 data/firmwares.json 中添加固件条目。",
+    version: "版本",
+    unversioned: "未标注",
+    fileCount: "文件数",
+    docMissing: "该固件暂未配置说明文档。",
+    docLoadFailed: "说明文档加载失败",
+    chooseFileError: "请先选择或上传至少一个 bin 文件。",
+    serialUnsupported: "当前浏览器不支持 Web Serial。",
+    prepareFlash: "准备烧录",
+    choosePortProgress: "等待选择串口设备",
+    choosePortLog: "请选择 OpenNextion 开发板对应的串口设备。",
+    connectChip: "连接芯片",
+    connected: "已连接",
+    downloading: "下载",
+    downloadFailed: "下载失败",
+    writeFlash: "开始写入 Flash：",
+    flashingProgress: "烧录中",
+    keepImageParams: "检测到 0x0 单文件固件，保留固件镜像自带 Flash 参数。",
+    resetBoard: "复位开发板",
+    flashDone: "烧录完成",
+    error: "错误",
+    failed: "失败",
+    incompleteKeepPort:
+      "烧录未完成，已保持串口连接以避免中断后的关闭崩溃。请重新插拔设备或刷新页面后重试。",
+    skipReset: "已按设置跳过复位。",
+    skipResetDone: "烧录完成，已按设置保持当前连接状态。",
+    softResetDone: "烧录完成，已发送软件复位命令。",
+    classicResetDone: "烧录完成，已执行 Classic 运行复位。",
+    invertedResetDone: "烧录完成，已执行反相 RTS 复位。",
+    customResetDone: "烧录完成，已执行自定义复位时序。",
+    esptoolResetLog: "执行 esptool.py 风格 RTS 硬复位。",
+    esptoolResetDone: "烧录完成，已通过 RTS 复位开发板。",
+    customResetInvalid: "自定义复位时序只能包含 D、R、W、数字和 |。",
+    invalidWait: "无效等待时间",
+    invalidResetCommand: "无效复位命令",
+    keepSerialLog: "按设置保持串口连接，避免 Chrome/Web Serial 在关闭 CH340 串口时闪退。",
+    disconnectAfter: "等待 {delay}ms 后断开串口。",
+    disconnectNonFatal: "串口断开时出现非致命错误",
+    chipMismatch: "提示：当前板型配置为 {expected}，实际连接到 {actual}。",
+    invalidAddress: "无效烧录地址",
+  },
+  en: {
+    pageTitle: "OpenNextion Online Firmware Flasher",
+    pageDescription:
+      "Online firmware flasher for OpenNextion development boards, with cloud examples and local firmware uploads.",
+    appTitle: "Online Firmware Flasher",
+    fieldSeparator: ": ",
+    languageLabel: "Language",
+    browserChecking: "Checking browser capabilities...",
+    browserOk: "Web Serial is available. You can flash firmware online.",
+    browserWarn: "This browser does not support Web Serial. Please use desktop Chrome or Edge.",
+    controlsPanel: "Flashing Configuration",
+    selectBoard: "Select Board",
+    chip: "Chip",
+    defaultFlash: "Default Flash",
+    defaultBaudRate: "Default Baud Rate",
+    usbSerial: "USB Serial",
+    usbFallback: "Depends on the actual hardware",
+    selectSource: "Select Firmware Source",
+    cloudFirmware: "Cloud Firmware",
+    localFirmware: "Local Firmware",
+    selectExample: "Select Example",
+    exampleGroup: "Example Group",
+    firmwareItem: "Firmware",
+    uploadLocal: "Upload Local Firmware",
+    localHint:
+      "Supports a single merged firmware file, or separate bootloader, partition, app, and other bin files with individual flash addresses.",
+    addBinFile: "Add bin file",
+    flashSettings: "Flash Settings",
+    settingsDefault: "Using board defaults",
+    baudRate: "Baud Rate",
+    flashMode: "Flash Mode",
+    flashFreq: "Flash Freq",
+    flashSize: "Flash Size",
+    resetAfterFlash: "Reset After Flash",
+    resetInvertedRts: "Inverted RTS reset",
+    resetEsptool: "RTS hard reset",
+    resetClassic: "Classic run reset",
+    resetSoft: "Software reset",
+    resetCustom: "Custom sequence",
+    resetNone: "No reset",
+    disconnectDelay: "Disconnect Delay",
+    delay08: "0.8 s",
+    delayKeep: "Keep connected",
+    delay3: "3 s",
+    delay8: "8 s",
+    customResetSequence: "Custom reset sequence",
+    eraseAll: "Erase entire flash before writing",
+    startFlash: "Select serial port and flash",
+    flashing: "Flashing...",
+    failedRefresh: "Flash failed. Refresh the page and retry",
+    keepConnected: "Serial kept connected. Refresh before flashing again",
+    firmwareNotes: "Firmware Notes",
+    flashProgress: "Flash Progress",
+    waitingStart: "Waiting to start",
+    flashAddress: "Flash address",
+    remove: "Remove",
+    configLoadFailed: "Configuration failed to load. Please check JSON files in the data directory.",
+    initFailed: "Initialization failed",
+    jsonLoadFailed: "failed to load",
+    noFirmwareTitle: "No firmware",
+    noFirmwareMeta: "No cloud firmware is configured for the selected board.",
+    noFirmwareHelp: "Add firmware entries in data/firmwares.json.",
+    version: "Version",
+    unversioned: "Not specified",
+    fileCount: "Files",
+    docMissing: "No documentation is configured for this firmware yet.",
+    docLoadFailed: "Documentation failed to load",
+    chooseFileError: "Select or upload at least one bin file first.",
+    serialUnsupported: "This browser does not support Web Serial.",
+    prepareFlash: "Preparing",
+    choosePortProgress: "Waiting for serial port selection",
+    choosePortLog: "Select the serial port for your OpenNextion development board.",
+    connectChip: "Connecting chip",
+    connected: "Connected",
+    downloading: "Downloading",
+    downloadFailed: "download failed",
+    writeFlash: "Writing Flash:",
+    flashingProgress: "Flashing",
+    keepImageParams:
+      "Detected a single firmware image at 0x0. Keeping flash parameters from the image.",
+    resetBoard: "Resetting board",
+    flashDone: "Flash complete",
+    error: "Error",
+    failed: "Failed",
+    incompleteKeepPort:
+      "Flashing did not complete. The serial port is kept open to avoid a close-after-failure crash. Replug the device or refresh the page before retrying.",
+    skipReset: "Reset skipped by setting.",
+    skipResetDone: "Flash complete. The current connection state was kept by setting.",
+    softResetDone: "Flash complete. Software reset command sent.",
+    classicResetDone: "Flash complete. Classic run reset completed.",
+    invertedResetDone: "Flash complete. Inverted RTS reset completed.",
+    customResetDone: "Flash complete. Custom reset sequence completed.",
+    esptoolResetLog: "Running esptool.py-style RTS hard reset.",
+    esptoolResetDone: "Flash complete. Board reset through RTS.",
+    customResetInvalid: "Custom reset sequence can only contain D, R, W, digits, and |.",
+    invalidWait: "Invalid wait time",
+    invalidResetCommand: "Invalid reset command",
+    keepSerialLog: "Keeping serial connected by setting to avoid Chrome/Web Serial CH340 close crashes.",
+    disconnectAfter: "Disconnecting serial after {delay}ms.",
+    disconnectNonFatal: "Non-fatal error while disconnecting serial",
+    chipMismatch: "Note: selected board expects {expected}, but connected chip is {actual}.",
+    invalidAddress: "Invalid flash address",
+  },
+};
+
 const state = {
+  language: detectInitialLanguage(),
   source: "cloud",
   boards: [],
   groups: [],
@@ -17,6 +224,7 @@ const state = {
 const MAX_LOG_CHARS = 120000;
 
 const els = {
+  languageSelect: document.querySelector("#languageSelect"),
   browserStatus: document.querySelector("#browserStatus"),
   boardSelect: document.querySelector("#boardSelect"),
   boardInfo: document.querySelector("#boardInfo"),
@@ -49,11 +257,12 @@ const els = {
 };
 
 init().catch((error) => {
-  logLine(`初始化失败：${error.message}`, "error");
-  els.markdownPreview.innerHTML = `<p>配置加载失败，请检查 data 目录下的 JSON 文件。</p>`;
+  logLine(`${t("initFailed")}：${error.message}`, "error");
+  els.markdownPreview.innerHTML = `<p>${escapeHtml(t("configLoadFailed"))}</p>`;
 });
 
 async function init() {
+  applyLanguage();
   detectBrowser();
   bindEvents();
   addLocalFileRow("0x10000");
@@ -71,16 +280,28 @@ async function init() {
 
 function detectBrowser() {
   if ("serial" in navigator) {
-    els.browserStatus.textContent = "浏览器支持 Web Serial，可以在线烧录。";
+    els.browserStatus.textContent = t("browserOk");
     els.browserStatus.className = "browser-status ok";
     return;
   }
-  els.browserStatus.textContent = "当前浏览器不支持 Web Serial，请使用桌面版 Chrome 或 Edge。";
+  els.browserStatus.textContent = t("browserWarn");
   els.browserStatus.className = "browser-status warn";
   els.flashBtn.disabled = true;
 }
 
 function bindEvents() {
+  els.languageSelect.addEventListener("change", () => {
+    state.language = els.languageSelect.value;
+    applyLanguage();
+    detectBrowser();
+    renderBoards();
+    if (state.selectedBoard) {
+      els.boardSelect.value = state.selectedBoard.id;
+      renderBoardInfo();
+      renderGroups({ preserveGroup: true, preserveFirmware: true });
+      updateSettingsSummary();
+    }
+  });
   els.boardSelect.addEventListener("change", syncSelections);
   els.groupSelect.addEventListener("change", () => {
     state.selectedGroup = els.groupSelect.value;
@@ -109,17 +330,69 @@ function bindEvents() {
   els.flashBtn.addEventListener("click", flashSelectedFirmware);
 }
 
+function detectInitialLanguage() {
+  const browserLanguage = navigator.language || navigator.userLanguage || "";
+  return browserLanguage.toLowerCase().startsWith("zh") ? "zh" : "en";
+}
+
+function applyLanguage() {
+  document.documentElement.lang = state.language === "zh" ? "zh-CN" : "en";
+  document.title = t("pageTitle");
+  document
+    .querySelector('meta[name="description"]')
+    ?.setAttribute("content", t("pageDescription"));
+  els.languageSelect.value = state.language;
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    element.textContent = t(element.dataset.i18n);
+  });
+  document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
+    element.setAttribute("aria-label", t(element.dataset.i18nAriaLabel));
+  });
+  els.localFiles?.querySelectorAll('.local-file-row input[type="text"]').forEach((element) => {
+    element.setAttribute("aria-label", t("flashAddress"));
+  });
+  els.localFiles?.querySelectorAll(".local-file-row button").forEach((element) => {
+    element.setAttribute("aria-label", t("remove"));
+  });
+  updateSettingsSummary();
+}
+
+function t(key, params = {}) {
+  const template = I18N[state.language]?.[key] || I18N.zh[key] || key;
+  return Object.entries(params).reduce(
+    (text, [name, value]) => text.replaceAll(`{${name}}`, String(value)),
+    template,
+  );
+}
+
+function localized(value) {
+  if (!value || typeof value === "string") {
+    return value || "";
+  }
+  return value[state.language] || value.en || value.zh || "";
+}
+
+function markdownPathFor(firmware) {
+  if (!firmware.markdown) {
+    return "";
+  }
+  if (typeof firmware.markdown === "string") {
+    return firmware.markdown;
+  }
+  return firmware.markdown[state.language] || firmware.markdown.en || firmware.markdown.zh || "";
+}
+
 async function fetchJson(path) {
   const response = await fetch(path);
   if (!response.ok) {
-    throw new Error(`${path} 加载失败 (${response.status})`);
+    throw new Error(`${path} ${t("jsonLoadFailed")} (${response.status})`);
   }
   return response.json();
 }
 
 function renderBoards() {
   els.boardSelect.innerHTML = state.boards
-    .map((board) => `<option value="${escapeAttr(board.id)}">${escapeHtml(board.name)}</option>`)
+    .map((board) => `<option value="${escapeAttr(board.id)}">${escapeHtml(localized(board.name))}</option>`)
     .join("");
 }
 
@@ -139,12 +412,12 @@ function renderBoardInfo() {
   const board = state.selectedBoard;
   const defaults = getBoardFlashDefaults();
   els.boardInfo.innerHTML = `
-    <strong>${escapeHtml(board.name)}</strong><br>
-    芯片：${escapeHtml(board.chip)}<br>
-    默认 Flash：${escapeHtml(defaults.flashSize)} / ${escapeHtml(defaults.flashMode.toUpperCase())} / ${escapeHtml(defaults.flashFreq.toUpperCase())}<br>
-    默认波特率：${escapeHtml(defaults.baudRate)}<br>
-    USB 串口：${escapeHtml(board.usb || "按实际硬件配置")}<br>
-    ${escapeHtml(board.description || "")}
+    <strong>${escapeHtml(localized(board.name))}</strong><br>
+    ${escapeHtml(t("chip"))}${escapeHtml(t("fieldSeparator"))}${escapeHtml(board.chip)}<br>
+    ${escapeHtml(t("defaultFlash"))}${escapeHtml(t("fieldSeparator"))}${escapeHtml(defaults.flashSize)} / ${escapeHtml(defaults.flashMode.toUpperCase())} / ${escapeHtml(defaults.flashFreq.toUpperCase())}<br>
+    ${escapeHtml(t("defaultBaudRate"))}${escapeHtml(t("fieldSeparator"))}${escapeHtml(defaults.baudRate)}<br>
+    ${escapeHtml(t("usbSerial"))}${escapeHtml(t("fieldSeparator"))}${escapeHtml(board.usb || t("usbFallback"))}<br>
+    ${escapeHtml(localized(board.description) || "")}
   `;
 }
 
@@ -178,7 +451,7 @@ function updateSettingsSummary() {
   els.settingsSummary.textContent = `${els.baudRate.value} / ${els.flashMode.value.toUpperCase()} / ${els.flashFreq.value.toUpperCase()} / ${els.flashSize.value} / ${resetLabel} / ${delayLabel}`;
 }
 
-function renderGroups() {
+function renderGroups(options = {}) {
   const boardId = state.selectedBoard.id;
   const groupIds = new Set(
     state.firmwares
@@ -187,19 +460,33 @@ function renderGroups() {
   );
   const groups = state.groups.filter((group) => groupIds.has(group.id));
   els.groupSelect.innerHTML = groups
-    .map((group) => `<option value="${escapeAttr(group.id)}">${escapeHtml(group.name)}</option>`)
+    .map((group) => `<option value="${escapeAttr(group.id)}">${escapeHtml(localized(group.name))}</option>`)
     .join("");
-  state.selectedGroup = groups[0]?.id || null;
+  const groupStillAvailable = groups.some((group) => group.id === state.selectedGroup);
+  state.selectedGroup = options.preserveGroup && groupStillAvailable ? state.selectedGroup : groups[0]?.id || null;
   if (state.selectedGroup) {
     els.groupSelect.value = state.selectedGroup;
   }
   renderFirmwares();
+  if (options.preserveFirmware) {
+    const firmwareStillAvailable = currentFirmwares().some(
+      (firmware) => firmware.id === state.selectedFirmware?.id,
+    );
+    if (firmwareStillAvailable) {
+      els.firmwareSelect.value = state.selectedFirmware.id;
+      renderFirmwareDetails();
+      return;
+    }
+  }
+  if (options.preserveGroup || options.preserveFirmware) {
+    selectFirstFirmware();
+  }
 }
 
 function renderFirmwares() {
   const firmwares = currentFirmwares();
   els.firmwareSelect.innerHTML = firmwares
-    .map((firmware) => `<option value="${escapeAttr(firmware.id)}">${escapeHtml(firmware.name)}</option>`)
+    .map((firmware) => `<option value="${escapeAttr(firmware.id)}">${escapeHtml(localized(firmware.name))}</option>`)
     .join("");
 }
 
@@ -213,34 +500,35 @@ function selectFirstFirmware() {
 async function renderFirmwareDetails() {
   const firmware = state.selectedFirmware;
   if (!firmware) {
-    els.previewTitle.textContent = "暂无固件";
-    els.firmwareMeta.innerHTML = "当前板型还没有配置云端固件。";
-    els.markdownPreview.innerHTML = "<p>请在 data/firmwares.json 中添加固件条目。</p>";
+    els.previewTitle.textContent = t("noFirmwareTitle");
+    els.firmwareMeta.innerHTML = t("noFirmwareMeta");
+    els.markdownPreview.innerHTML = `<p>${escapeHtml(t("noFirmwareHelp"))}</p>`;
     return;
   }
 
-  els.previewTitle.textContent = firmware.name;
+  els.previewTitle.textContent = localized(firmware.name);
   els.firmwareMeta.innerHTML = `
-    <strong>${escapeHtml(firmware.name)}</strong><br>
-    版本：${escapeHtml(firmware.version || "未标注")}<br>
-    文件数：${firmware.files.length}<br>
-    ${escapeHtml(firmware.summary || "")}
+    <strong>${escapeHtml(localized(firmware.name))}</strong><br>
+    ${escapeHtml(t("version"))}${escapeHtml(t("fieldSeparator"))}${escapeHtml(firmware.version || t("unversioned"))}<br>
+    ${escapeHtml(t("fileCount"))}${escapeHtml(t("fieldSeparator"))}${firmware.files.length}<br>
+    ${escapeHtml(localized(firmware.summary) || "")}
   `;
 
-  if (!firmware.markdown) {
-    els.markdownPreview.innerHTML = `<p>${escapeHtml(firmware.description || "该固件暂未配置说明文档。")}</p>`;
+  const markdownPath = markdownPathFor(firmware);
+  if (!markdownPath) {
+    els.markdownPreview.innerHTML = `<p>${escapeHtml(localized(firmware.description) || t("docMissing"))}</p>`;
     return;
   }
 
   try {
-    const response = await fetch(firmware.markdown);
+    const response = await fetch(markdownPath);
     if (!response.ok) {
       throw new Error(`${response.status}`);
     }
     const markdown = await response.text();
-    els.markdownPreview.innerHTML = renderMarkdown(markdown);
+    els.markdownPreview.innerHTML = renderMarkdown(markdown, markdownPath);
   } catch (error) {
-    els.markdownPreview.innerHTML = `<p>说明文档加载失败：${escapeHtml(error.message)}</p>`;
+    els.markdownPreview.innerHTML = `<p>${escapeHtml(t("docLoadFailed"))}：${escapeHtml(error.message)}</p>`;
   }
 }
 
@@ -256,6 +544,8 @@ function addLocalFileRow(address) {
   const fragment = els.localFileTemplate.content.cloneNode(true);
   const row = fragment.querySelector(".local-file-row");
   row.querySelector('input[type="text"]').value = address;
+  row.querySelector('input[type="text"]').setAttribute("aria-label", t("flashAddress"));
+  row.querySelector("button").setAttribute("aria-label", t("remove"));
   row.querySelector("button").addEventListener("click", () => row.remove());
   els.localFiles.appendChild(fragment);
 }
@@ -266,12 +556,12 @@ async function flashSelectedFirmware() {
     clearLog();
     const files = state.source === "cloud" ? await collectCloudFiles() : await collectLocalFiles();
     if (!files.length) {
-      throw new Error("请先选择或上传至少一个 bin 文件。");
+      throw new Error(t("chooseFileError"));
     }
     await flashFiles(files);
   } catch (error) {
-    setProgress(0, `失败：${error.message}`);
-    logLine(`错误：${error.message}`, "error");
+    setProgress(0, `${t("failed")}：${error.message}`);
+    logLine(`${t("error")}：${error.message}`, "error");
   }
 }
 
@@ -282,10 +572,10 @@ async function collectCloudFiles() {
   }
   const loaded = [];
   for (const file of firmware.files) {
-    logLine(`下载 ${file.path}`);
+    logLine(`${t("downloading")} ${file.path}`);
     const response = await fetch(file.path);
     if (!response.ok) {
-      throw new Error(`${file.path} 下载失败 (${response.status})`);
+      throw new Error(`${file.path} ${t("downloadFailed")} (${response.status})`);
     }
     loaded.push({
       address: parseAddress(file.address),
@@ -317,13 +607,13 @@ async function collectLocalFiles() {
 
 async function flashFiles(files) {
   if (!("serial" in navigator)) {
-    throw new Error("当前浏览器不支持 Web Serial。");
+    throw new Error(t("serialUnsupported"));
   }
 
   els.flashBtn.disabled = true;
-  els.flashBtn.textContent = "烧录中...";
-  setProgress(2, "等待选择串口设备");
-  logLine("请选择 OpenNextion 开发板对应的串口设备。");
+  els.flashBtn.textContent = t("flashing");
+  setProgress(2, t("choosePortProgress"));
+  logLine(t("choosePortLog"));
 
   const { ESPLoader, Transport } = await import("https://unpkg.com/esptool-js@0.6.0/bundle.js");
   const port = await navigator.serial.requestPort();
@@ -342,9 +632,9 @@ async function flashFiles(files) {
 
   let flashSucceeded = false;
   try {
-    setProgress(5, "连接芯片");
+    setProgress(5, t("connectChip"));
     const chipName = await loader.main();
-    logLine(`已连接：${chipName}`);
+    logLine(`${t("connected")}：${chipName}`);
     validateSelectedChip(chipName);
 
     const totalBytes = files.reduce((total, item) => total + item.data.byteLength, 0);
@@ -365,38 +655,38 @@ async function flashFiles(files) {
         writtenByFile.set(fileIndex, Math.min(written, total));
         const writtenBytes = [...writtenByFile.values()].reduce((sum, value) => sum + value, 0);
         const percent = totalBytes ? 10 + (writtenBytes / totalBytes) * 86 : 10;
-        setProgress(percent, `烧录中：${Math.round(percent)}%`);
+        setProgress(percent, `${t("flashingProgress")}：${Math.round(percent)}%`);
       },
     };
 
-    logLine("开始写入 Flash：");
+    logLine(t("writeFlash"));
     files.forEach((file) => logLine(`- ${file.name} -> 0x${file.address.toString(16)}`));
     if (keepImageFlashParams) {
-      logLine("检测到 0x0 单文件固件，保留固件镜像自带 Flash 参数。");
+      logLine(t("keepImageParams"));
     }
     try {
       await loader.writeFlash(flashOptions);
     } finally {
       releaseFlashBuffers(flashOptions, files);
     }
-    setProgress(98, "复位开发板");
+    setProgress(98, t("resetBoard"));
     const resetResult = await resetAfterFlash(loader, transport);
-    setProgress(100, "烧录完成");
+    setProgress(100, t("flashDone"));
     logLine(resetResult.message);
     flashSucceeded = true;
   } finally {
     if (!flashSucceeded) {
-      logLine("烧录未完成，已保持串口连接以避免中断后的关闭崩溃。请重新插拔设备或刷新页面后重试。");
+      logLine(t("incompleteKeepPort"));
       els.flashBtn.disabled = true;
-      els.flashBtn.textContent = "烧录失败，请刷新页面后重试";
+      els.flashBtn.textContent = t("failedRefresh");
     } else {
       const keptConnected = await disconnectAfterReset(transport);
       if (keptConnected) {
         els.flashBtn.disabled = true;
-        els.flashBtn.textContent = "串口保持连接，刷新页面后再次烧录";
+        els.flashBtn.textContent = t("keepConnected");
       } else {
         els.flashBtn.disabled = false;
-        els.flashBtn.textContent = "选择串口并开始烧录";
+        els.flashBtn.textContent = t("startFlash");
       }
     }
   }
@@ -409,34 +699,34 @@ function shouldKeepImageFlashParams(files) {
 async function resetAfterFlash(loader, transport) {
   const mode = els.resetMode.value;
   if (mode === "none") {
-    logLine("已按设置跳过复位。");
-    return { message: "烧录完成，已按设置保持当前连接状态。" };
+    logLine(t("skipReset"));
+    return { message: t("skipResetDone") };
   }
   if (mode === "soft") {
     await loader.after("soft_reset");
-    return { message: "烧录完成，已发送软件复位命令。" };
+    return { message: t("softResetDone") };
   }
   if (mode === "classic-run") {
     await runResetSequence(transport, "D0|R1|W100|R0|W500|D0|R0");
-    return { message: "烧录完成，已执行 Classic 运行复位。" };
+    return { message: t("classicResetDone") };
   }
   if (mode === "inverted-rts") {
     await runResetSequence(transport, "D0|R0|W120|R1|W500|R0|D0");
-    return { message: "烧录完成，已执行反相 RTS 复位。" };
+    return { message: t("invertedResetDone") };
   }
   if (mode === "custom") {
     await runResetSequence(transport, els.customResetSequence.value.trim());
-    return { message: "烧录完成，已执行自定义复位时序。" };
+    return { message: t("customResetDone") };
   }
 
-  logLine("执行 esptool.py 风格 RTS 硬复位。");
+  logLine(t("esptoolResetLog"));
   await runResetSequence(transport, "D0|R1|W100|R0|W500|D0|R0");
-  return { message: "烧录完成，已通过 RTS 复位开发板。" };
+  return { message: t("esptoolResetDone") };
 }
 
 async function runResetSequence(transport, sequence) {
   if (!/^[DRW0-9|]+$/.test(sequence)) {
-    throw new Error("自定义复位时序只能包含 D、R、W、数字和 |。");
+    throw new Error(t("customResetInvalid"));
   }
   const steps = sequence.split("|").filter(Boolean);
   for (const step of steps) {
@@ -450,12 +740,12 @@ async function runResetSequence(transport, sequence) {
       await transport.setRTS(value === "1");
     } else if (command === "W") {
       if (!Number.isFinite(Number(value)) || Number(value) < 0) {
-        throw new Error(`无效等待时间：${step}`);
+        throw new Error(`${t("invalidWait")}：${step}`);
       }
       logLine(`wait ${value}ms`);
       await sleep(Number(value));
     } else {
-      throw new Error(`无效复位命令：${step}`);
+      throw new Error(`${t("invalidResetCommand")}：${step}`);
     }
   }
 }
@@ -463,13 +753,13 @@ async function runResetSequence(transport, sequence) {
 async function disconnectAfterReset(transport) {
   const delay = Number(els.disconnectDelay.value);
   if (delay < 0) {
-    logLine("按设置保持串口连接，避免 Chrome/Web Serial 在关闭 CH340 串口时闪退。");
+    logLine(t("keepSerialLog"));
     return true;
   }
-  logLine(`等待 ${delay}ms 后断开串口。`);
+  logLine(t("disconnectAfter", { delay }));
   await sleep(delay);
   await transport.disconnect().catch((error) => {
-    logLine(`串口断开时出现非致命错误：${error.message}`);
+    logLine(`${t("disconnectNonFatal")}：${error.message}`);
   });
   return false;
 }
@@ -496,7 +786,7 @@ function validateSelectedChip(chipName) {
   const normalizedChip = chipName.toLowerCase().replace(/[-_ ]/g, "");
   const normalizedExpected = expected.replace(/[-_ ]/g, "");
   if (!normalizedChip.includes(normalizedExpected)) {
-    logLine(`提示：当前板型配置为 ${state.selectedBoard.chip}，实际连接到 ${chipName}。`);
+    logLine(t("chipMismatch", { expected: state.selectedBoard.chip, actual: chipName }));
   }
 }
 
@@ -523,62 +813,117 @@ function parseAddress(value) {
   const text = String(value).trim().toLowerCase();
   const parsed = text.startsWith("0x") ? Number.parseInt(text, 16) : Number.parseInt(text, 10);
   if (!Number.isFinite(parsed) || parsed < 0) {
-    throw new Error(`无效烧录地址：${value}`);
+    throw new Error(`${t("invalidAddress")}：${value}`);
   }
   return parsed;
 }
 
-function renderMarkdown(markdown) {
+function renderMarkdown(markdown, markdownPath) {
   const lines = markdown.split(/\r?\n/);
   let html = "";
-  let inList = false;
+  let listType = null;
 
   const closeList = () => {
-    if (inList) {
-      html += "</ul>";
-      inList = false;
+    if (listType) {
+      html += `</${listType}>`;
+      listType = null;
     }
   };
 
-  for (const line of lines) {
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index];
     if (!line.trim()) {
       closeList();
       continue;
     }
+    if (isTableLine(line)) {
+      closeList();
+      const tableLines = [];
+      while (index < lines.length && isTableLine(lines[index])) {
+        tableLines.push(lines[index]);
+        index += 1;
+      }
+      index -= 1;
+      html += renderTable(tableLines, markdownPath);
+      continue;
+    }
     if (line.startsWith("### ")) {
       closeList();
-      html += `<h3>${inlineMarkdown(line.slice(4))}</h3>`;
+      html += `<h3>${inlineMarkdown(line.slice(4), markdownPath)}</h3>`;
     } else if (line.startsWith("## ")) {
       closeList();
-      html += `<h2>${inlineMarkdown(line.slice(3))}</h2>`;
+      html += `<h2>${inlineMarkdown(line.slice(3), markdownPath)}</h2>`;
     } else if (line.startsWith("# ")) {
       closeList();
-      html += `<h1>${inlineMarkdown(line.slice(2))}</h1>`;
+      html += `<h1>${inlineMarkdown(line.slice(2), markdownPath)}</h1>`;
     } else if (line.startsWith("- ")) {
-      if (!inList) {
+      if (listType !== "ul") {
+        closeList();
         html += "<ul>";
-        inList = true;
+        listType = "ul";
       }
-      html += `<li>${inlineMarkdown(line.slice(2))}</li>`;
+      html += `<li>${inlineMarkdown(line.slice(2), markdownPath)}</li>`;
+    } else if (/^\d+\.\s+/.test(line)) {
+      if (listType !== "ol") {
+        closeList();
+        html += "<ol>";
+        listType = "ol";
+      }
+      html += `<li>${inlineMarkdown(line.replace(/^\d+\.\s+/, ""), markdownPath)}</li>`;
     } else {
       closeList();
-      html += `<p>${inlineMarkdown(line)}</p>`;
+      html += `<p>${inlineMarkdown(line, markdownPath)}</p>`;
     }
   }
   closeList();
   return html;
 }
 
-function inlineMarkdown(text) {
+function inlineMarkdown(text, markdownPath) {
   return escapeHtml(text)
-    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img alt="$1" src="$2">')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer">$1</a>')
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_match, alt, url) => {
+      const resolvedUrl = resolveMarkdownUrl(url, markdownPath);
+      return `<img alt="${escapeAttr(alt)}" src="${escapeAttr(resolvedUrl)}">`;
+    })
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, label, url) => {
+      const resolvedUrl = resolveMarkdownUrl(url, markdownPath);
+      return `<a href="${escapeAttr(resolvedUrl)}" target="_blank" rel="noreferrer">${label}</a>`;
+    })
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/`([^`]+)`/g, "<code>$1</code>");
 }
 
+function isTableLine(line) {
+  const text = line.trim();
+  return text.startsWith("|") && text.endsWith("|");
+}
+
+function renderTable(lines, markdownPath) {
+  const rows = lines
+    .map((line) => line.trim().slice(1, -1).split("|").map((cell) => cell.trim()))
+    .filter((cells) => !cells.every((cell) => /^:?-{3,}:?$/.test(cell)));
+  if (!rows.length) {
+    return "";
+  }
+  const [head, ...body] = rows;
+  const headHtml = head.map((cell) => `<th>${inlineMarkdown(cell, markdownPath)}</th>`).join("");
+  const bodyHtml = body
+    .map((row) => `<tr>${row.map((cell) => `<td>${inlineMarkdown(cell, markdownPath)}</td>`).join("")}</tr>`)
+    .join("");
+  return `<div class="table-scroll"><table><thead><tr>${headHtml}</tr></thead><tbody>${bodyHtml}</tbody></table></div>`;
+}
+
+function resolveMarkdownUrl(url, markdownPath) {
+  const trimmed = url.trim();
+  if (/^(https?:|mailto:|#|\/)/i.test(trimmed)) {
+    return trimmed;
+  }
+  const base = markdownPath.slice(0, markdownPath.lastIndexOf("/") + 1);
+  return new URL(trimmed, new URL(base, window.location.href)).toString();
+}
+
 function resetProgress() {
-  setProgress(0, "准备烧录");
+  setProgress(0, t("prepareFlash"));
 }
 
 function setProgress(percent, text) {

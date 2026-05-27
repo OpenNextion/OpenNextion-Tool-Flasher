@@ -2,7 +2,7 @@
 
 ## Overview
 
-This example demonstrates Wi-Fi scanning, connection, and status display on the ONX2432G028 development board (ESP32-S3). The UI is built with LVGL and the Wi-Fi logic is provided by the `wifi_manager` component.
+This example demonstrates Wi-Fi scanning, connection, and status display on the ONX3248G035 development board (ESP32-S3). The UI is built with LVGL and the Wi-Fi logic is provided by the `wifi_manager` component.
 
 ## Features
 
@@ -13,7 +13,7 @@ This example demonstrates Wi-Fi scanning, connection, and status display on the 
 ## Hardware Requirements
 
 - **MCU**: ESP32-S3 Development Board
-- **LCD**: 2.8-inch ST7789 SPI TFT LCD (240x320)
+- **LCD**: 3.5-inch ST7796U SPI TFT LCD (320x480)
 - **Touch**: CST826 I2C capacitive touch controller
 - **IO Expander**: PCF8574 I2C IO expander
 
@@ -40,11 +40,11 @@ This example demonstrates Wi-Fi scanning, connection, and status display on the 
 3. **Provision Wi-Fi**: scan and select SSID on the screen, then enter password.
 
 #### Product Purchase Link
-[2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
+[3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
 #### Product Information
-[2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
+[3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 #### Source Code
-[05_wifi_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/05_wifi_test)
+[05_wifi_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/05_wifi_test)
 

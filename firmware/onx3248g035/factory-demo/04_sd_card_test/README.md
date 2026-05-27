@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an example of testing SD card functionality on the ONX2432G028 development board (ESP32-S3). It demonstrates how to mount an SD card, write a file to it, read the file back, and check the card's information, such as card type and capacity.
+This project is an example of testing SD card functionality on the ONX3248G035 development board (ESP32-S3). It demonstrates how to mount an SD card, write a file to it, read the file back, and check the card's information, such as card type and capacity.
 
 The example uses the SDMMC host driver in 1-line SD mode. The results of the operations (file write, read, and card info) are printed to the serial monitor.
 
@@ -35,10 +35,10 @@ The example uses the SDMMC host driver in 1-line SD mode. The results of the ope
 4.  **Monitor Output**: Open a serial monitor to view the output of the SD card test.
 
 #### Product Purchase Link
-[2.8-inch capacitive screen (ONX2432G028)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
+[3.5-inch capacitive screen (ONX3248G035)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
 #### Product Information
-[2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
+[3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 #### Source Code
-[04_sd_card_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/04_sd_card_test)
+[04_sd_card_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/04_sd_card_test)

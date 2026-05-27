@@ -53,6 +53,25 @@ select {
   line-height: 1.05;
 }
 
+.topbar-actions {
+  display: grid;
+  justify-items: end;
+  gap: 10px;
+}
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+}
+
+.language-switch select {
+  width: auto;
+  min-height: 36px;
+  padding: 6px 32px 6px 10px;
+}
+
 .eyebrow {
   margin: 0 0 6px;
   color: var(--accent);
@@ -379,6 +398,35 @@ input[type="file"] {
   padding-left: 22px;
 }
 
+.markdown-body ol {
+  padding-left: 24px;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 14px 0;
+}
+
+.markdown-body table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid var(--line);
+  padding: 9px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.markdown-body th {
+  background: #f1f5f9;
+  color: var(--ink);
+}
+
 .progress-wrap {
   display: grid;
   gap: 10px;
@@ -431,6 +479,14 @@ input[type="file"] {
 
   .topbar {
     display: grid;
+  }
+
+  .topbar-actions {
+    justify-items: stretch;
+  }
+
+  .language-switch {
+    justify-content: space-between;
   }
 }
 
