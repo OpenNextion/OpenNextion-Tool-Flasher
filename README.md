@@ -4,7 +4,7 @@
 
 OpenNextion Flasher is a browser-based firmware flashing tool for OpenNextion development boards. It uses Web Serial and `esptool-js` so users can open the web page, select a board, choose a firmware example, and flash ESP32-series firmware directly from Chrome or Edge.
 
-Online page: [https://liumangxin.github.io/OpenNextion-Flasher/](https://liumangxin.github.io/OpenNextion-Flasher/)
+Online page: [https://opennextion.github.io/OpenNextion-Tool-Flasher/](https://opennextion.github.io/OpenNextion-Tool-Flasher/)
 
 ## Features
 

@@ -4,7 +4,7 @@
 
 OpenNextion Flasher 是面向 OpenNextion 系列开发板的在线固件烧录工具。页面通过 Web Serial 和 `esptool-js` 工作，用户在 Chrome 或 Edge 中打开网页后，可以选择开发板型号、选择云端例程或本地固件，并直接在线烧录 ESP32 系列固件。
 
-在线访问地址：[https://liumangxin.github.io/OpenNextion-Flasher/](https://liumangxin.github.io/OpenNextion-Flasher/)
+在线访问地址：[https://opennextion.github.io/OpenNextion-Tool-Flasher/](https://opennextion.github.io/OpenNextion-Tool-Flasher/)
 
 ## 功能特性
 
