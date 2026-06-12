@@ -1,5 +1,7 @@
 # ESP32-S3 Out-of-Box Demo
 
+Note: The firmware provided in this online flasher is the ESP-IDF version of this example.
+
 ## Overview
 
 This example is an out-of-box demo for the ONX2432G028 development board (ESP32-S3). It runs the LVGL Widgets demo to quickly verify LCD, touch, and UI rendering.
@@ -46,5 +48,6 @@ This example is an out-of-box demo for the ONX2432G028 development board (ESP32-
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
 ### Source Code
-[09_outofbox_demo](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/09_outofbox_demo)
+- [ESP-IDF version - 09_outofbox_demo](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/09_outofbox_demo)
+- [ESP-Arduino version - 09_outofbox_demo](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-Arduino/09_outofbox_demo)
 

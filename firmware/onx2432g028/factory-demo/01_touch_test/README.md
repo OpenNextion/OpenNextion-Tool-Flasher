@@ -1,5 +1,7 @@
 # ESP32-S3 Touch Test Example
 
+Note: The firmware provided in this online flasher is the ESP-IDF version of this example.
+
 ## Overview
 
 This project is a touch function test example for the ONX2432G028 development board (ESP32-S3). It communicates with a CST826 touch controller via the I2C interface and drives an ST7789 LCD screen using the SPI interface. The example uses the LVGL graphics library to display the touch trace on the screen in real-time.
@@ -44,4 +46,5 @@ When the user touches the screen, the program reads the touch coordinates and dr
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
 ### Source Code
-[01_touch_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/01_touch_test)
+- [ESP-IDF version - 01_touch_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/01_touch_test)
+- [ESP-Arduino version - 01_touch_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-Arduino/01_touch_test)

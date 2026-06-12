@@ -1,5 +1,7 @@
 # ESP32-S3 出厂演示示例
 
+说明：当前在线烧录工具中提供的该例程固件为 ESP-IDF 版本。
+
 ## 概述
 
 本示例为 ONX2432G028 开发板（ESP32-S3）的出厂演示程序，基于 LVGL 运行官方 Widgets 示例，用于快速验证 LCD、触摸与 UI 渲染能力。
@@ -46,4 +48,5 @@
 [2.8寸电容屏 ONX2432G028](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
 ### 源码
-[09_outofbox_demo](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/09_outofbox_demo)
+- [ESP-IDF 版本 - 09_outofbox_demo](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/09_outofbox_demo)
+- [ESP-Arduino 版本 - 09_outofbox_demo](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-Arduino/09_outofbox_demo)

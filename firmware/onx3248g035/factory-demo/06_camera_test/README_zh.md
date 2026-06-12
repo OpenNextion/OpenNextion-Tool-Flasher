@@ -1,5 +1,7 @@
 # ESP32-S3 摄像头测试示例
 
+说明：当前在线烧录工具中提供的该例程固件为 ESP-IDF 版本。
+
 ## 概述
 
 本项目是一个在 ONX3248G035 开发板 (ESP32-S3) 上演示摄像头功能的示例。它初始化一个 OV2640 摄像头传感器，将其配置为输出 RGB565 格式，并持续捕获帧并在 ST7796U LCD 上显示。
@@ -60,4 +62,5 @@
 [3.5寸电容屏 ONX3248G035](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 ### 源码
-[06_camera_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/06_camera_test)
+- [ESP-IDF 版本 - 06_camera_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/06_camera_test)
+- [ESP-Arduino 版本 - 06_camera_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-Arduino/06_camera_test)

@@ -1,5 +1,7 @@
 # ESP32-S3 Wi-Fi Test Example
 
+Note: The firmware provided in this online flasher is the ESP-IDF version of this example.
+
 ## Overview
 
 This example demonstrates Wi-Fi scanning, connection, and status display on the ONX2432G028 development board (ESP32-S3). The UI is built with LVGL and the Wi-Fi logic is provided by the `wifi_manager` component.
@@ -46,5 +48,6 @@ This example demonstrates Wi-Fi scanning, connection, and status display on the 
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
 ### Source Code
-[05_wifi_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/05_wifi_test)
+- [ESP-IDF version - 05_wifi_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/05_wifi_test)
+- [ESP-Arduino version - 05_wifi_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-Arduino/05_wifi_test)
 

@@ -1,5 +1,7 @@
 # ESP32-S3 触摸测试示例
 
+说明：当前在线烧录工具中提供的该例程固件为 ESP-IDF 版本。
+
 ## 概述
 
 本示例旨在演示如何将触摸功能集成到 ONX3248G035开发板(ESP32-S3)中。它通过I2C接口与CST826触摸控制器通信，并利用SPI接口驱动ST7796U LCD屏幕。示例使用LVGL图形库在屏幕上实时显示触摸轨迹。
@@ -44,4 +46,5 @@
 [3.5寸电容屏 ONX3248G035](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 ### 源码
-[01_touch_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/01_touch_test)
+- [ESP-IDF 版本 - 01_touch_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/01_touch_test)
+- [ESP-Arduino 版本 - 01_touch_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-Arduino/01_touch_test)

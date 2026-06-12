@@ -1,5 +1,7 @@
 # ESP32-S3 Camera Test Example
 
+Note: The firmware provided in this online flasher is the ESP-IDF version of this example.
+
 ## Overview
 
 This project demonstrates how to use a camera on the ONX2432G028 development board (ESP32-S3) and display the live video stream on an LCD screen. It initializes a OV2640 camera sensor, configures it to output in RGB565 format, and continuously captures and displays frames on an ST7789 LCD.
@@ -60,5 +62,6 @@ This project demonstrates how to use a camera on the ONX2432G028 development boa
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
 ### Source Code
-[06_camera_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/06_camera_test)
+- [ESP-IDF version - 06_camera_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/06_camera_test)
+- [ESP-Arduino version - 06_camera_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-Arduino/06_camera_test)
 

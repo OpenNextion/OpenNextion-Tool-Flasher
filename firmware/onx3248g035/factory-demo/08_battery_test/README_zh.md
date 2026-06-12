@@ -1,5 +1,7 @@
 # ESP32-S3 电池电量测试示例
 
+说明：当前在线烧录工具中提供的该例程固件为 ESP-IDF 版本。
+
 ## 概述
 
 本示例演示在 ONX3248G035 开发板（ESP32-S3）上通过 ADC 采样电池电压，并在 LCD 上显示电量百分比与充电状态图标。
@@ -56,4 +58,5 @@
 [3.5寸电容屏 ONX3248G035](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 ### 源码
-[08_battery_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/08_battery_test)
+- [ESP-IDF 版本 - 08_battery_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/08_battery_test)
+- [ESP-Arduino 版本 - 08_battery_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-Arduino/08_battery_test)

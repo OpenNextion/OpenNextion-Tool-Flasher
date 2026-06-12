@@ -1,5 +1,7 @@
 # ESP32-S3 SD 卡图片测试示例
 
+说明：当前在线烧录工具中提供的该例程固件为 ESP-IDF 版本。
+
 ## 概述
 
 本项目是一个基于 ONX3248G035 开发板 (ESP32-S3) 的 SD 卡图像显示测试示例。它使用 SPI 接口与 ST7796U LCD 屏幕和 SD 卡进行通信。LVGL 图形库用于渲染图像和显示导航按钮。
@@ -55,4 +57,5 @@
 [3.5寸电容屏 ONX3248G035](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 ### 源码
-[03_sd_card_image_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/03_sd_card_image_test)
+- [ESP-IDF 版本 - 03_sd_card_image_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/03_sd_card_image_test)
+- [ESP-Arduino 版本 - 03_sd_card_image_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-Arduino/03_sd_card_image_test)

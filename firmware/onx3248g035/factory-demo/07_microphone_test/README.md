@@ -1,5 +1,7 @@
 # ESP32-S3 Microphone Test Example
 
+Note: The firmware provided in this online flasher is the ESP-IDF version of this example.
+
 ## Overview
 
 This example demonstrates microphone capture, AFE processing, and playback on the ONX3248G035 development board (ESP32-S3). The LVGL UI provides MIC (record), release-to-play, and STOP controls.
@@ -56,4 +58,5 @@ This example demonstrates microphone capture, AFE processing, and playback on th
 [3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 ### Source Code
-[07_microphone_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/07_microphone_test)
+- [ESP-IDF version - 07_microphone_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/07_microphone_test)
+- [ESP-Arduino version - 07_microphone_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-Arduino/07_microphone_test)

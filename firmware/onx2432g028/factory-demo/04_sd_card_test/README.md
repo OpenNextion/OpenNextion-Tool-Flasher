@@ -1,5 +1,7 @@
 # ESP32-S3 SD Card Test Example
 
+Note: The firmware provided in this online flasher is the ESP-IDF version of this example.
+
 ## Overview
 
 This project is an example of testing SD card functionality on the ONX2432G028 development board (ESP32-S3). It demonstrates how to mount an SD card, write a file to it, read the file back, and check the card's information, such as card type and capacity.
@@ -41,4 +43,5 @@ The example uses the SDMMC host driver in 1-line SD mode. The results of the ope
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
 ### Source Code
-[04_sd_card_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/04_sd_card_test)
+- [ESP-IDF version - 04_sd_card_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/04_sd_card_test)
+- [ESP-Arduino version - 04_sd_card_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-Arduino/04_sd_card_test)

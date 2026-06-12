@@ -1,5 +1,7 @@
 ﻿# ESP32-S3 SD 卡测试示例ONX2432G028
 
+说明：当前在线烧录工具中提供的该例程固件为 ESP-IDF 版本。
+
 ## 概述
 
 本项目是一个在 ONX2432G028 开发板 (ESP32-S3) 上测试 SD 卡功能的示例。它演示了如何挂载 SD 卡、向其写入文件、读回文件以及检查卡的类型和容量等信息。
@@ -41,4 +43,5 @@
 [2.8寸电容屏 ONX2432G028](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
 ### 源码
-[04_sd_card_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/04_sd_card_test)
+- [ESP-IDF 版本 - 04_sd_card_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/04_sd_card_test)
+- [ESP-Arduino 版本 - 04_sd_card_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-Arduino/04_sd_card_test)

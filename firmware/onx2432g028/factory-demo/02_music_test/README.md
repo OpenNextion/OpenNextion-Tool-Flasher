@@ -1,5 +1,7 @@
 # ESP32-S3 Music Playback Test Example
 
+Note: The firmware provided in this online flasher is the ESP-IDF version of this example.
+
 ## Overview
 
 This example demonstrates playing audio from an SD card on the ONX2432G028 development board (ESP32-S3), with a simple LVGL touch UI and onboard speaker output.
@@ -55,5 +57,6 @@ This example demonstrates playing audio from an SD card on the ONX2432G028 devel
 [2.8-inch capacitive screen (ONX2432G028)](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
 ### Source Code
-[02_music_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/02_music_test)
+- [ESP-IDF version - 02_music_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-IDF/02_music_test)
+- [ESP-Arduino version - 02_music_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028/tree/main/Example%20Programs/ESP-Arduino/02_music_test)
 

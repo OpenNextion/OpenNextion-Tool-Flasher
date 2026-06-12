@@ -1,5 +1,7 @@
 # ESP32-S3 麦克风测试示例
 
+说明：当前在线烧录工具中提供的该例程固件为 ESP-IDF 版本。
+
 ## 概述
 
 本示例演示在 ONX3248G035 开发板（ESP32-S3）上进行麦克风采集、语音前端处理（AFE）以及回放的完整流程。界面基于 LVGL，按住 MIC 按钮录音，松开后循环播放，STOP 按钮停止录音/播放。
@@ -56,5 +58,6 @@
 [3.5寸电容屏 ONX3248G035](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 ### 源码
-[07_microphone_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/07_microphone_test)
+- [ESP-IDF 版本 - 07_microphone_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/07_microphone_test)
+- [ESP-Arduino 版本 - 07_microphone_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-Arduino/07_microphone_test)
 

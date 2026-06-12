@@ -1,5 +1,7 @@
 # ESP32-S3 Battery Test Example
 
+Note: The firmware provided in this online flasher is the ESP-IDF version of this example.
+
 ## Overview
 
 This example shows how to estimate battery level using ADC sampling and display the percentage and charging state on the LCD of the ONX3248G035 development board (ESP32-S3).
@@ -56,4 +58,5 @@ This example shows how to estimate battery level using ADC sampling and display 
 [3.5-inch capacitive screen (ONX3248G035)](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
 
 ### Source Code
-[08_battery_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/08_battery_test)
+- [ESP-IDF version - 08_battery_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-IDF/08_battery_test)
+- [ESP-Arduino version - 08_battery_test](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035/tree/main/Example%20Programs/ESP-Arduino/08_battery_test)
