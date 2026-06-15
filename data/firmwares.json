@@ -330,6 +330,36 @@
     ]
   },
   {
+    "id": "onx2432g028-application-demo-open-hasp",
+    "name": {
+      "zh": "openHASP 智能家居面板",
+      "en": "openHASP Smart Home Panel"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v0.7.0.1_e6afb36",
+    "summary": {
+      "zh": "ONX2432G028 openHASP 触控面板固件，用于 Home Assistant / MQTT 智能家居控制。",
+      "en": "ONX2432G028 openHASP touch panel firmware for Home Assistant / MQTT smart home control."
+    },
+    "description": {
+      "zh": "将 ONX2432G028 作为 openHASP 智能家居触控面板使用。",
+      "en": "Turns ONX2432G028 into an openHASP smart home touch panel."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/application-demo/open-hasp/README_zh.md",
+      "en": "./firmware/onx2432g028/application-demo/open-hasp/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/application-demo/open-hasp/open_hasp_V0.7.0.1_merged_ONX2432G028.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
     "id": "onx3248g035-factory-demo-01_touch_test",
     "name": {
       "zh": "01 触摸测试",
@@ -655,6 +685,36 @@
     "files": [
       {
         "path": "./firmware/onx3248g035/application-demo/xiaozhi-esp32/xiaozhi_V2.2.6_merged_ONX3248G035_en_Jarvis.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-application-demo-open-hasp",
+    "name": {
+      "zh": "openHASP 智能家居面板",
+      "en": "openHASP Smart Home Panel"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v0.7.0.1_e6afb36",
+    "summary": {
+      "zh": "ONX3248G035 openHASP 触控面板固件，用于 Home Assistant / MQTT 智能家居控制。",
+      "en": "ONX3248G035 openHASP touch panel firmware for Home Assistant / MQTT smart home control."
+    },
+    "description": {
+      "zh": "将 ONX3248G035 作为 openHASP 智能家居触控面板使用。",
+      "en": "Turns ONX3248G035 into an openHASP smart home touch panel."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/application-demo/open-hasp/README_zh.md",
+      "en": "./firmware/onx3248g035/application-demo/open-hasp/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/application-demo/open-hasp/open_hasp_V0.7.0.1_merged_ONX3248G035.bin",
         "address": "0x0"
       }
     ]

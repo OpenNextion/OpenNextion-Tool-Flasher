@@ -54,18 +54,24 @@ firmware/
         README.md
         README_zh.md
         xiaozhi_*.bin
+      open-hasp/
+        README.md
+        README_zh.md
+        onx2432g028_full_16MB_*.bin
   onx3248g035/
     factory-demo/
       ...
     application-demo/
       xiaozhi-esp32/
         ...
+      open-hasp/
+        ...
 ```
 
 Current cloud firmware index:
 
 - Factory Demo: 18 entries, version `v1.0.0`.
-- Application Demo: 4 XiaoZhi AI entries, version `v2.2.6`.
+- Application Demo: 4 XiaoZhi AI entries, version `v2.2.6`; 2 openHASP entries, version `v0.7.0.1_e6afb36`.
 
 ## Metadata Files
 

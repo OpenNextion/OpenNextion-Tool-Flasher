@@ -54,18 +54,24 @@ firmware/
         README.md
         README_zh.md
         xiaozhi_*.bin
+      open-hasp/
+        README.md
+        README_zh.md
+        onx2432g028_full_16MB_*.bin
   onx3248g035/
     factory-demo/
       ...
     application-demo/
       xiaozhi-esp32/
         ...
+      open-hasp/
+        ...
 ```
 
 当前云端固件索引：
 
 - 出厂演示：18 个条目，版本 `v1.0.0`。
-- 应用例程：4 个小智 AI 条目，版本 `v2.2.6`。
+- 应用例程：4 个小智 AI 条目，版本 `v2.2.6`；2 个 openHASP 条目，版本 `v0.7.0.1_e6afb36`。
 
 ## 元数据文件
 
