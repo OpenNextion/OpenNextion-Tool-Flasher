@@ -57,7 +57,11 @@ firmware/
       open-hasp/
         README.md
         README_zh.md
-        onx2432g028_full_16MB_*.bin
+        open_hasp_*.bin
+      esp32-marauder/
+        README.md
+        README_zh.md
+        esp32_marauder_*.bin
   onx3248g035/
     factory-demo/
       ...
@@ -66,12 +70,14 @@ firmware/
         ...
       open-hasp/
         ...
+      esp32-marauder/
+        ...
 ```
 
 Current cloud firmware index:
 
 - Factory Demo: 18 entries, version `v1.0.0`.
-- Application Demo: 4 XiaoZhi AI entries, version `v2.2.6`; 2 openHASP entries, version `v0.7.0.1_e6afb36`.
+- Application Demo: 4 XiaoZhi AI entries, version `v2.2.6`; 2 openHASP entries, version `v0.7.0.1_e6afb36`; 2 ESP32 Marauder entries, version `v1.12.2`.
 
 ## Metadata Files
 

@@ -360,6 +360,36 @@
     ]
   },
   {
+    "id": "onx2432g028-application-demo-esp32-marauder",
+    "name": {
+      "zh": "ESP32 Marauder",
+      "en": "ESP32 Marauder"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v1.12.2",
+    "summary": {
+      "zh": "ONX2432G028 ESP32 Marauder Wi-Fi / Bluetooth 安全测试工具固件。",
+      "en": "ONX2432G028 ESP32 Marauder Wi-Fi / Bluetooth security testing firmware."
+    },
+    "description": {
+      "zh": "将 ONX2432G028 作为 ESP32 Marauder 安全测试工具使用。",
+      "en": "Turns ONX2432G028 into an ESP32 Marauder security testing tool."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/application-demo/esp32-marauder/README_zh.md",
+      "en": "./firmware/onx2432g028/application-demo/esp32-marauder/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/application-demo/esp32-marauder/esp32_marauder_V1.12.2_merged_ONX2432G028.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
     "id": "onx3248g035-factory-demo-01_touch_test",
     "name": {
       "zh": "01 触摸测试",
@@ -715,6 +745,36 @@
     "files": [
       {
         "path": "./firmware/onx3248g035/application-demo/open-hasp/open_hasp_V0.7.0.1_merged_ONX3248G035.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-application-demo-esp32-marauder",
+    "name": {
+      "zh": "ESP32 Marauder",
+      "en": "ESP32 Marauder"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v1.12.2",
+    "summary": {
+      "zh": "ONX3248G035 ESP32 Marauder Wi-Fi / Bluetooth 安全测试工具固件。",
+      "en": "ONX3248G035 ESP32 Marauder Wi-Fi / Bluetooth security testing firmware."
+    },
+    "description": {
+      "zh": "将 ONX3248G035 作为 ESP32 Marauder 安全测试工具使用。",
+      "en": "Turns ONX3248G035 into an ESP32 Marauder security testing tool."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/application-demo/esp32-marauder/README_zh.md",
+      "en": "./firmware/onx3248g035/application-demo/esp32-marauder/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/application-demo/esp32-marauder/esp32_marauder_V1.12.2_merged_ONX3248G035.bin",
         "address": "0x0"
       }
     ]
