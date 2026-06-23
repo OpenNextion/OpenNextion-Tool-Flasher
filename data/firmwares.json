@@ -778,5 +778,65 @@
         "address": "0x0"
       }
     ]
+  },
+  {
+    "id": "onx2432g028-application-demo-opennextion-printsphere",
+    "name": {
+      "zh": "PrintSphere 拓竹打印机状态屏",
+      "en": "PrintSphere Bambu Printer Status Display"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "v0.2.1",
+    "summary": {
+      "zh": "ONX2432G028 桌面拓竹 3D 打印机实时状态显示屏固件。",
+      "en": "ONX2432G028 desktop real-time status display firmware for Bambu Lab 3D printers."
+    },
+    "description": {
+      "zh": "将开源项目 PrintSphere 移植到 OpenNextion 矩形屏，显示打印进度、温度、AMS 信息等。",
+      "en": "Ports PrintSphere to OpenNextion rectangular screens, showing print progress, temps, AMS info and more."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/application-demo/opennextion-printsphere/README_zh.md",
+      "en": "./firmware/onx2432g028/application-demo/opennextion-printsphere/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/application-demo/opennextion-printsphere/opennextion-printsphere-v0.2.1-onx2432g028-landscape.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-application-demo-opennextion-printsphere",
+    "name": {
+      "zh": "PrintSphere 拓竹打印机状态屏",
+      "en": "PrintSphere Bambu Printer Status Display"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "v0.2.1",
+    "summary": {
+      "zh": "ONX3248G035 桌面拓竹 3D 打印机实时状态显示屏固件。",
+      "en": "ONX3248G035 desktop real-time status display firmware for Bambu Lab 3D printers."
+    },
+    "description": {
+      "zh": "将开源项目 PrintSphere 移植到 OpenNextion 矩形屏，显示打印进度、温度、AMS 信息等。",
+      "en": "Ports PrintSphere to OpenNextion rectangular screens, showing print progress, temps, AMS info and more."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/application-demo/opennextion-printsphere/README_zh.md",
+      "en": "./firmware/onx3248g035/application-demo/opennextion-printsphere/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/application-demo/opennextion-printsphere/opennextion-printsphere-v0.2.1-onx3248g035-landscape.bin",
+        "address": "0x0"
+      }
+    ]
   }
 ]
