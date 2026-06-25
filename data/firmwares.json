@@ -799,12 +799,12 @@
       "en": "Ports PrintSphere to OpenNextion rectangular screens, showing print progress, temps, AMS info and more."
     },
     "markdown": {
-      "zh": "./firmware/onx2432g028/application-demo/opennextion-printsphere/README_zh.md",
-      "en": "./firmware/onx2432g028/application-demo/opennextion-printsphere/README.md"
+      "zh": "./firmware/onx2432g028/application-demo/printsphere/README_zh.md",
+      "en": "./firmware/onx2432g028/application-demo/printsphere/README.md"
     },
     "files": [
       {
-        "path": "./firmware/onx2432g028/application-demo/opennextion-printsphere/opennextion-printsphere-v0.2.1-onx2432g028-landscape.bin",
+        "path": "./firmware/onx2432g028/application-demo/printsphere/printsphere-v0.2.1-onx2432g028-landscape.bin",
         "address": "0x0"
       }
     ]
@@ -829,12 +829,12 @@
       "en": "Ports PrintSphere to OpenNextion rectangular screens, showing print progress, temps, AMS info and more."
     },
     "markdown": {
-      "zh": "./firmware/onx3248g035/application-demo/opennextion-printsphere/README_zh.md",
-      "en": "./firmware/onx3248g035/application-demo/opennextion-printsphere/README.md"
+      "zh": "./firmware/onx3248g035/application-demo/printsphere/README_zh.md",
+      "en": "./firmware/onx3248g035/application-demo/printsphere/README.md"
     },
     "files": [
       {
-        "path": "./firmware/onx3248g035/application-demo/opennextion-printsphere/opennextion-printsphere-v0.2.1-onx3248g035-landscape.bin",
+        "path": "./firmware/onx3248g035/application-demo/printsphere/printsphere-v0.2.1-onx3248g035-landscape.bin",
         "address": "0x0"
       }
     ]
