@@ -45,6 +45,6 @@
 
 ## 相关链接
 
-- [OpenNextion-ESP32-Plane-Radar 源码](https://github.com/OpenNextion/OpenNextion-ESP32-Plane-Radar)
+- [OpenNextion-Example-ESP32-Plane-Radar 源码](https://github.com/OpenNextion/OpenNextion-Example-ESP32-Plane-Radar)
 - [adsb.fi Open Data](https://opendata.adsb.fi/)
 - [ONX2432G028 产品资料](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)

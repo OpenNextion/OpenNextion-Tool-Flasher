@@ -30,12 +30,12 @@
 
 ## 注意事项
 
-- 本固件来自 `OpenNextion-ESP32Marauder` 项目的 `add-ONX2432G028-support` 分支构建产物。
+- 本固件来自 `OpenNextion-Example-ESP32Marauder` 项目的 `add-ONX2432G028-support` 分支构建产物。
 - 固件为完整合并镜像，在线烧录工具会写入 `0x0` 并保留镜像自带 Flash 参数。
 - 仅在你拥有明确授权的设备、网络和实验环境中使用。请遵守当地法律法规和组织安全规范。
 
 ## 相关链接
 
-- [OpenNextion-ESP32Marauder 源码](https://github.com/OpenNextion/OpenNextion-ESP32Marauder)
+- [OpenNextion-Example-ESP32Marauder 源码](https://github.com/OpenNextion/OpenNextion-Example-ESP32Marauder)
 - [ESP32 Marauder 项目](https://github.com/justcallmekoko/ESP32Marauder)
 - [ONX2432G028 产品资料](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)

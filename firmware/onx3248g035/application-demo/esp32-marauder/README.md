@@ -30,12 +30,12 @@ This firmware is the ESP32 Marauder build for `ONX3248G035`. ESP32 Marauder is a
 
 ## Notes
 
-- This firmware comes from the `add-ONX3248G035-support` branch of `OpenNextion-ESP32Marauder`.
+- This firmware comes from the `add-ONX3248G035-support` branch of `OpenNextion-Example-ESP32Marauder`.
 - The firmware is a merged image. The online flasher writes it to `0x0` and keeps the flash parameters embedded in the image.
 - Use this firmware only on devices, networks, and lab environments where you have explicit authorization. Follow local laws and organizational security policies.
 
 ## Links
 
-- [OpenNextion-ESP32Marauder Source](https://github.com/OpenNextion/OpenNextion-ESP32Marauder)
+- [OpenNextion-Example-ESP32Marauder Source](https://github.com/OpenNextion/OpenNextion-Example-ESP32Marauder)
 - [ESP32 Marauder Project](https://github.com/justcallmekoko/ESP32Marauder)
 - [ONX3248G035 Product Files](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)

@@ -45,6 +45,6 @@ This firmware is the Plane Radar build for `ONX2432G028`. It shows a live aircra
 
 ## Links
 
-- [OpenNextion-ESP32-Plane-Radar Source](https://github.com/OpenNextion/OpenNextion-ESP32-Plane-Radar)
+- [OpenNextion-Example-ESP32-Plane-Radar Source](https://github.com/OpenNextion/OpenNextion-Example-ESP32-Plane-Radar)
 - [adsb.fi Open Data](https://opendata.adsb.fi/)
 - [ONX2432G028 Product Files](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
