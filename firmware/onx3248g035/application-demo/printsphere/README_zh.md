@@ -90,5 +90,5 @@
 
 ### 源码
 
-[opennextion-printsphere（GitHub）](https://github.com/OpenNextion/opennextion-printsphere)  
+[printsphere（GitHub）](https://github.com/OpenNextion/opennextion-printsphere)  
 [原版 PrintSphere by Cpt_Kirk](https://github.com/cptkirki/PrintSphere)

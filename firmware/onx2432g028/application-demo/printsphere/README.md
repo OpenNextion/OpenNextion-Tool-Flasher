@@ -1,6 +1,6 @@
-# OpenNextion PrintSphere - Bambu Lab Printer Status Display (ONX3248G035)
+# OpenNextion PrintSphere - Bambu Lab Printer Status Display (ONX2432G028)
 
-Ports the open-source [PrintSphere](https://github.com/cptkirki/PrintSphere) project to the OpenNextion ONX3248G035 (3.5-inch) rectangular ESP32-S3 display. Shows real-time status of Bambu Lab 3D printers on your desk.
+Ports the open-source [PrintSphere](https://github.com/cptkirki/PrintSphere) project to the OpenNextion ONX2432G028 (2.8-inch) rectangular ESP32-S3 display. Shows real-time status of Bambu Lab 3D printers on your desk.
 
 > **Note:** This firmware is an unofficial port. Use at your own risk. Not affiliated with Bambu Lab or OpenNextion.
 
@@ -32,11 +32,11 @@ Ports the open-source [PrintSphere](https://github.com/cptkirki/PrintSphere) pro
 ## Hardware Requirements
 
 - **MCU**: ESP32-S3R8 (240 MHz, 8 MB Octal PSRAM)
-- **LCD**: 3.5-inch ST7796U SPI TFT (480×320, landscape)
+- **LCD**: 2.8-inch SPI TFT (320×240, landscape)
 - **Touch**: CST826 I2C capacitive touch controller
 - **IO Expander**: PCF8574 I2C IO expander
 - **Flash**: 16 MB
-- **Board**: [ONX3248G035](https://nextion.tech/wiki/onx3248g035/)
+- **Board**: [ONX2432G028](https://nextion.tech/wiki/onx2432g028/)
 
 ## Pin Connections
 
@@ -59,12 +59,12 @@ Ports the open-source [PrintSphere](https://github.com/cptkirki/PrintSphere) pro
 
 | Item | Value |
 | :--- | :--- |
-| Target Board | ONX3248G035 |
+| Target Board | ONX2432G028 |
 | Version | v0.2.1 |
 | Chip | ESP32-S3 |
 | Flash | 16 MB |
 | Flash Address | 0x0 (merged image) |
-| Orientation | Landscape (480×320) |
+| Orientation | Landscape (320×240) |
 | Source Branch | main |
 
 ## First Use
@@ -77,18 +77,18 @@ Ports the open-source [PrintSphere](https://github.com/cptkirki/PrintSphere) pro
 
 ## 3D Printed Case
 
-[ONX3248G035 Desk Stand on MakerWorld](https://makerworld.com/models/2899702-opennextion-esp32-printer-status-display-for-bambu#profileId-3241235)
+[ONX2432G028 Desk Stand on MakerWorld](https://makerworld.com/models/2950328-printsphere-ported-to-opennextion-for-2-8-inch-bam#profileId-3305542)
 
 ### Product Purchase Link
 
-[ONX3248G035 (3.5-inch ESP32-S3 LCD)](https://itead.cc/product/open-nextion-3-5-genius-series-esp32-s3-lcd-touchscreen-development-board/)
+[ONX2432G028 (2.8-inch ESP32-S3 LCD)](https://itead.cc/product/open-nextion-2-8-genius-series-esp32-s3-lcd-touchscreen-development-board/)
 
 ### Product Resources
 
-[ONX3248G035 Wiki & Schematics](https://nextion.tech/wiki/onx3248g035/)  
-[ONX3248G035 GitHub SKU Repository](https://github.com/OpenNextion/OpenNextion-SKU-ONX3248G035)
+[ONX2432G028 Wiki & Schematics](https://nextion.tech/wiki/onx2432g028/)  
+[ONX2432G028 GitHub SKU Repository](https://github.com/OpenNextion/OpenNextion-SKU-ONX2432G028)
 
 ### Source Code
 
-[opennextion-printsphere on GitHub](https://github.com/OpenNextion/opennextion-printsphere)  
+[printsphere on GitHub](https://github.com/OpenNextion/opennextion-printsphere)  
 [Original PrintSphere by Cpt_Kirk](https://github.com/cptkirki/PrintSphere)
