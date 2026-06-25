@@ -838,5 +838,65 @@
         "address": "0x0"
       }
     ]
+  },
+  {
+    "id": "onx2432g028-application-demo-plane-radar",
+    "name": {
+      "zh": "Plane Radar 飞机雷达",
+      "en": "Plane Radar"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "",
+    "summary": {
+      "zh": "ONX2432G028 基于 ADS-B 数据的实时飞机雷达显示固件。",
+      "en": "ONX2432G028 live aircraft radar display firmware based on ADS-B data."
+    },
+    "description": {
+      "zh": "将 ONX2432G028 作为 Plane Radar 桌面飞机雷达屏使用。",
+      "en": "Turns ONX2432G028 into a Plane Radar desktop aircraft radar display."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/application-demo/plane-radar/README_zh.md",
+      "en": "./firmware/onx2432g028/application-demo/plane-radar/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/application-demo/plane-radar/plane_radar_merged_ONX2432G028.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-application-demo-plane-radar",
+    "name": {
+      "zh": "Plane Radar 飞机雷达",
+      "en": "Plane Radar"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "",
+    "summary": {
+      "zh": "ONX3248G035 基于 ADS-B 数据的实时飞机雷达显示固件。",
+      "en": "ONX3248G035 live aircraft radar display firmware based on ADS-B data."
+    },
+    "description": {
+      "zh": "将 ONX3248G035 作为 Plane Radar 桌面飞机雷达屏使用。",
+      "en": "Turns ONX3248G035 into a Plane Radar desktop aircraft radar display."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/application-demo/plane-radar/README_zh.md",
+      "en": "./firmware/onx3248g035/application-demo/plane-radar/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/application-demo/plane-radar/plane_radar_merged_ONX3248G035.bin",
+        "address": "0x0"
+      }
+    ]
   }
 ]
