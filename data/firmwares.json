@@ -330,6 +330,36 @@
     ]
   },
   {
+    "id": "onx2432g028-application-demo-esphome_wake-word-voice-assistants",
+    "name": {
+      "zh": "Esphome wake word voice assistents",
+      "en": "Esphome wake word voice assistents"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx2432g028"
+    ],
+    "version": "",
+    "summary": {
+      "zh": "ONX2432G028 本地唤醒词 Home Assistant 语音助手终端固件。",
+      "en": "ONX2432G028 Home Assistant voice assistant endpoint firmware with on-device wake word detection."
+    },
+    "description": {
+      "zh": "将 ONX2432G028 作为支持本地唤醒词检测的 Home Assistant 语音助手终端使用。",
+      "en": "Turns ONX2432G028 into a Home Assistant voice assistant endpoint with on-device wake word detection."
+    },
+    "markdown": {
+      "zh": "./firmware/onx2432g028/application-demo/esphome_wake-word-voice-assistants/README_zh.md",
+      "en": "./firmware/onx2432g028/application-demo/esphome_wake-word-voice-assistants/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx2432g028/application-demo/esphome_wake-word-voice-assistants/esphome_wake_word_voice_assistants_merged_ONX2432G028.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
     "id": "onx2432g028-application-demo-open-hasp",
     "name": {
       "zh": "openHASP 智能家居面板",
@@ -715,6 +745,36 @@
     "files": [
       {
         "path": "./firmware/onx3248g035/application-demo/xiaozhi-esp32/xiaozhi_V2.2.6_merged_ONX3248G035_en_Jarvis.bin",
+        "address": "0x0"
+      }
+    ]
+  },
+  {
+    "id": "onx3248g035-application-demo-esphome_wake-word-voice-assistants",
+    "name": {
+      "zh": "Esphome wake word voice assistents",
+      "en": "Esphome wake word voice assistents"
+    },
+    "groupId": "application",
+    "boardIds": [
+      "onx3248g035"
+    ],
+    "version": "",
+    "summary": {
+      "zh": "ONX3248G035 本地唤醒词 Home Assistant 语音助手终端固件。",
+      "en": "ONX3248G035 Home Assistant voice assistant endpoint firmware with on-device wake word detection."
+    },
+    "description": {
+      "zh": "将 ONX3248G035 作为支持本地唤醒词检测的 Home Assistant 语音助手终端使用。",
+      "en": "Turns ONX3248G035 into a Home Assistant voice assistant endpoint with on-device wake word detection."
+    },
+    "markdown": {
+      "zh": "./firmware/onx3248g035/application-demo/esphome_wake-word-voice-assistants/README_zh.md",
+      "en": "./firmware/onx3248g035/application-demo/esphome_wake-word-voice-assistants/README.md"
+    },
+    "files": [
+      {
+        "path": "./firmware/onx3248g035/application-demo/esphome_wake-word-voice-assistants/esphome_wake_word_voice_assistants_merged_ONX3248G035.bin",
         "address": "0x0"
       }
     ]
